@@ -1,0 +1,43 @@
+{
+  "version": "3.0.24-Haoke.5",
+  "versionCode": 3000024005,
+  "platform": "Windows x64",
+  "repository": "https://github.com/zh1414319052-lgtm/vlc-haoke",
+  "downloadPage": "https://haoke.org/software/b92689d5ae8d3982?platform=windows",
+  "upstream": {
+    "repository": "https://code.videolan.org/videolan/vlc/",
+    "commit": "6de05adcbaf2e8b85fe86aad4169393098628119"
+  },
+  "license": {
+    "VLCAndHaokeChanges": "GPL-2.0-or-later",
+    "libVLC": "LGPL-2.1-or-later",
+    "dependencies": "respective licenses",
+    "NotoSansCJKSC": "SIL OFL-1.1"
+  },
+  "installer": {
+    "name": "全能影音播放器_3.0.24-Haoke.5_Windows_x64_Setup.exe",
+    "bytes": 77099048,
+    "sha256": "8439f716b603ba716bae6409ee69cb5f7954100327c5f026d9613492573c0c76",
+    "downloadPage": "https://haoke.org/software/b92689d5ae8d3982?platform=windows",
+    "binaryUploadedHere": false
+  },
+  "sourceArchives": 89,
+  "sourceArchiveBytes": 458913166,
+  "assets": [
+    {
+      "name": "vlc-haoke-3.0.24-Haoke.5-dependency-sources.zip",
+      "bytes": 457941171,
+      "sha256": "44a4c8ade7671afb6d045d2653174773c98b2d663f133e3b6f41608c29bdb82e",
+      "url": "https://github.com/zh1414319052-lgtm/vlc-haoke/releases/download/3.0.24-Haoke.5/vlc-haoke-3.0.24-Haoke.5-dependency-sources.zip"
+    },
+    {
+      "name": "vlc-haoke-3.0.24-Haoke.5-build-inputs.zip",
+      "bytes": 434306735,
+      "sha256": "c09990a72351beeb3c715c996998240b5d10f546921e99c138b8dfe3c4908678",
+      "url": "https://github.com/zh1414319052-lgtm/vlc-haoke/releases/download/3.0.24-Haoke.5/vlc-haoke-3.0.24-Haoke.5-build-inputs.zip"
+    }
+  ],
+  "scope": "Full modified release source plus pinned dependency sources, recipes/patches, notices and build inputs. Only native entry and Qt interface were rebuilt; 364 official DLL/plugins retained.",
+  "privateSigningMaterialIncluded": false,
+  "buildInputsAreNotSourceReplacement": true
+}

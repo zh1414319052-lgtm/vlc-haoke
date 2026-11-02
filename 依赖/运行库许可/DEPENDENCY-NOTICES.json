@@ -1,0 +1,3030 @@
+{
+  "schemaVersion": 1,
+  "sourceManifest": "source-manifest.json",
+  "scope": "Byte-preserved license/attribution text superset from verified Windows contrib sources; not a statement that all bundled source code is linked into the runtime.",
+  "packages": 89,
+  "notices": 383,
+  "bytes": 3260023,
+  "missingIndependentLicense": [
+    "amf",
+    "crystalhd"
+  ],
+  "sourceEmbeddedFallbacks": [
+    "amf",
+    "crystalhd"
+  ],
+  "pendingLicenseNotice": [],
+  "skippedNonTextOrOversized": [
+    {
+      "package": "goom",
+      "member": "goom2k4-0/gtk-gui-devel/AUTHORS",
+      "reason": "non-text"
+    },
+    {
+      "package": "live555",
+      "member": "live/hlsProxy/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/hlsProxy/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/proxyServer/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/proxyServer/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/mediaServer/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/mediaServer/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/testProgs/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/testProgs/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/BasicUsageEnvironment/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/BasicUsageEnvironment/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/UsageEnvironment/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/UsageEnvironment/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/groupsock/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/groupsock/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/liveMedia/COPYING",
+      "reason": "non-regular-member-not-followed"
+    },
+    {
+      "package": "live555",
+      "member": "live/liveMedia/COPYING.LESSER",
+      "reason": "non-regular-member-not-followed"
+    }
+  ],
+  "items": [
+    {
+      "package": "SDL_image",
+      "sourceArchive": "SDL3_image-3.4.4.tar.gz",
+      "sourceSha256": "29751304a13d25ac513f24305fa25b06a6edd9607718c90129b8350d35fc5573",
+      "notices": [
+        {
+          "sourceMember": "SDL3_image-3.4.4/LICENSE.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/LICENSE.txt",
+          "bytes": 878,
+          "sha256": "e36997fe492c48e7ed873065cc3a694f38e8189a328d3709099ffdc9a8843f4c"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.aom.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.aom.txt",
+          "bytes": 1316,
+          "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.avif.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.avif.txt",
+          "bytes": 19152,
+          "sha256": "5a6e603c08d02a173954aced9957fa7e5fcd72c43ff78775b758fc7109da18a6"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.dav1d.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.dav1d.txt",
+          "bytes": 1317,
+          "sha256": "b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.libpng.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.libpng.txt",
+          "bytes": 5345,
+          "sha256": "16d9daaafbf63a31a5bdc91d4600972548fef5aaa1244202393288dbd079c49a"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.tiff.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.tiff.txt",
+          "bytes": 1167,
+          "sha256": "8f859efd8916b7df374bd39dc9eeea9d53dbcf35e62fcf670d2b3b4c4d8f251a"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.webp.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x64/LICENSE.webp.txt",
+          "bytes": 1526,
+          "sha256": "17c029a902ad45a199dfe8e3a1c39305ab28d302b0703360c4a27351a4673dcb"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.aom.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.aom.txt",
+          "bytes": 1316,
+          "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.avif.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.avif.txt",
+          "bytes": 19152,
+          "sha256": "5a6e603c08d02a173954aced9957fa7e5fcd72c43ff78775b758fc7109da18a6"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.dav1d.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.dav1d.txt",
+          "bytes": 1317,
+          "sha256": "b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.libpng.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.libpng.txt",
+          "bytes": 5345,
+          "sha256": "16d9daaafbf63a31a5bdc91d4600972548fef5aaa1244202393288dbd079c49a"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.tiff.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.tiff.txt",
+          "bytes": 1167,
+          "sha256": "8f859efd8916b7df374bd39dc9eeea9d53dbcf35e62fcf670d2b3b4c4d8f251a"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.webp.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/VisualC/external/optional/x86/LICENSE.webp.txt",
+          "bytes": 1526,
+          "sha256": "17c029a902ad45a199dfe8e3a1c39305ab28d302b0703360c4a27351a4673dcb"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/Xcode/iOS/SDL3.framework/LICENSE.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/Xcode/iOS/SDL3.framework/LICENSE.txt",
+          "bytes": 884,
+          "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+        },
+        {
+          "sourceMember": "SDL3_image-3.4.4/Xcode/macOS/SDL3.framework/Versions/A/Resources/LICENSE.txt",
+          "path": "SDL_image/SDL3_image-3.4.4/Xcode/macOS/SDL3.framework/Versions/A/Resources/LICENSE.txt",
+          "bytes": 884,
+          "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+        }
+      ]
+    },
+    {
+      "package": "a52",
+      "sourceArchive": "a52dec-0.7.4.tar.gz",
+      "sourceSha256": "a21d724ab3b3933330194353687df82c475b5dfb997513eef4c25de6c865ec33",
+      "notices": [
+        {
+          "sourceMember": "a52dec-0.7.4/AUTHORS",
+          "path": "a52/a52dec-0.7.4/AUTHORS",
+          "bytes": 1031,
+          "sha256": "ab5956ca70cabfa59d1290d89ca742460ab9fdadc8dbc1f9b1f857216aafdf14"
+        },
+        {
+          "sourceMember": "a52dec-0.7.4/COPYING",
+          "path": "a52/a52dec-0.7.4/COPYING",
+          "bytes": 18007,
+          "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+        }
+      ]
+    },
+    {
+      "package": "amf",
+      "sourceArchive": "AMF-1.5.2.tar.gz",
+      "sourceSha256": "d3c12eb324edf05e214608b6a395a51dd95770ed9d45520185d6c3a206811c99",
+      "notices": [
+        {
+          "sourceMember": "amf-headers-v1.5.2/AMF/core/Platform.h",
+          "path": "amf/amf-headers-v1.5.2/AMF/core/Platform.h.NOTICE.txt",
+          "bytes": 1730,
+          "sha256": "3a1462053635a930534b4a6a3831e87281d6fd5181c1c4139a48bd85bd369dd1",
+          "extraction": "complete-original-leading-copyright-and-license-comment-only"
+        }
+      ]
+    },
+    {
+      "package": "aom",
+      "sourceArchive": "libaom-3.15.0.tar.gz",
+      "sourceSha256": "ea08c38ecc078bc85bb1b691020e52b06250f1a81fe7ca5b624629225081af96",
+      "notices": [
+        {
+          "sourceMember": "libaom-3.15.0/AUTHORS",
+          "path": "aom/libaom-3.15.0/AUTHORS",
+          "bytes": 13178,
+          "sha256": "c31b80ca48fde06ca03aef2f3dec15413fe0c2661fe6b56e86ccd69dbc6f9a1d"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/LICENSE",
+          "path": "aom/libaom-3.15.0/LICENSE",
+          "bytes": 1316,
+          "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/PATENTS",
+          "path": "aom/libaom-3.15.0/PATENTS",
+          "bytes": 5701,
+          "sha256": "661fb8e504744e95587b556b94a58343448300606a41bea8c7a9b97125696e61"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/fastfeat/LICENSE",
+          "path": "aom/libaom-3.15.0/third_party/fastfeat/LICENSE",
+          "bytes": 1504,
+          "sha256": "499041ddee5227b6f29ca06c17803e5fe24d60f243c69635cd76b7ba08d0ddd5"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/googletest/src/CONTRIBUTORS",
+          "path": "aom/libaom-3.15.0/third_party/googletest/src/CONTRIBUTORS",
+          "bytes": 2293,
+          "sha256": "71fa46171dd98c44962614c158c0529053932a8a3fe2a6beca2dec2a6de890ca"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/googletest/src/LICENSE",
+          "path": "aom/libaom-3.15.0/third_party/googletest/src/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/highway/LICENSE-BSD3",
+          "path": "aom/libaom-3.15.0/third_party/highway/LICENSE-BSD3",
+          "bytes": 1515,
+          "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/libwebm/AUTHORS.TXT",
+          "path": "aom/libaom-3.15.0/third_party/libwebm/AUTHORS.TXT",
+          "bytes": 137,
+          "sha256": "3edb5f5496bfff3d6d4a62fa75fe996b814920d0d6e348c2e65c589e7ac5d177"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/libwebm/LICENSE.TXT",
+          "path": "aom/libaom-3.15.0/third_party/libwebm/LICENSE.TXT",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/libwebm/PATENTS.TXT",
+          "path": "aom/libaom-3.15.0/third_party/libwebm/PATENTS.TXT",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/libyuv/LICENSE",
+          "path": "aom/libaom-3.15.0/third_party/libyuv/LICENSE",
+          "bytes": 1506,
+          "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/vector/LICENSE",
+          "path": "aom/libaom-3.15.0/third_party/vector/LICENSE",
+          "bytes": 1084,
+          "sha256": "ff6c857ce2708e87701323078aef115c1872a1f80a9649f86dc899b48083bc60"
+        },
+        {
+          "sourceMember": "libaom-3.15.0/third_party/x86inc/LICENSE",
+          "path": "aom/libaom-3.15.0/third_party/x86inc/LICENSE",
+          "bytes": 936,
+          "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+        }
+      ]
+    },
+    {
+      "package": "aribb24",
+      "sourceArchive": "aribb24-1.0.3.tar.gz",
+      "sourceSha256": "f61560738926e57f9173510389634d8c06cabedfa857db4b28fb7704707ff128",
+      "notices": [
+        {
+          "sourceMember": "aribb24-1.0.3/COPYING",
+          "path": "aribb24/aribb24-1.0.3/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "package": "aribb25",
+      "sourceArchive": "aribb25-0.2.7.tar.gz",
+      "sourceSha256": "a437d3b7975db1732c18dcdc66f92bb11e21f0a0b33b95fab4e60f3a40508301",
+      "notices": [
+        {
+          "sourceMember": "aribb25-0.2.7/LICENCE",
+          "path": "aribb25/aribb25-0.2.7/LICENCE",
+          "bytes": 852,
+          "sha256": "750b3b2e24518bf1e626f35c01d97dc5acbb7f36c0e2ca967fe39d921db121f9"
+        }
+      ]
+    },
+    {
+      "package": "asdcplib",
+      "sourceArchive": "asdcplib-rel_2_13_2.tar.gz",
+      "sourceSha256": "ee40998f737d5751cf9157c4c416f2ef4f63fc5bdae579afefbb91a3265e6039",
+      "notices": [
+        {
+          "sourceMember": "asdcplib-rel_2_13_2/COPYING",
+          "path": "asdcplib/asdcplib-rel_2_13_2/COPYING",
+          "bytes": 3047,
+          "sha256": "a6308c8ab4660d470976b4e1ce2c85daa44002340a917988cdc506df6379696d"
+        }
+      ]
+    },
+    {
+      "package": "ass",
+      "sourceArchive": "libass-0.17.5.tar.xz",
+      "sourceSha256": "2dca25c0e0c837ddf00b52011b3f82cac1e4ddd3ad018227806b0c2288864acc",
+      "notices": [
+        {
+          "sourceMember": "libass-0.17.5/COPYING",
+          "path": "ass/libass-0.17.5/COPYING",
+          "bytes": 755,
+          "sha256": "f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c"
+        }
+      ]
+    },
+    {
+      "package": "bluray",
+      "sourceArchive": "libbluray-1.4.1.tar.xz",
+      "sourceSha256": "76b5dc40097f28dca4ebb009c98ed51321b2927453f75cc72cf74acd09b9f449",
+      "notices": [
+        {
+          "sourceMember": "libbluray-1.4.1/COPYING",
+          "path": "bluray/libbluray-1.4.1/COPYING",
+          "bytes": 24478,
+          "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+        },
+        {
+          "sourceMember": "libbluray-1.4.1/contrib/asm/LICENSE.txt",
+          "path": "bluray/libbluray-1.4.1/contrib/asm/LICENSE.txt",
+          "bytes": 1598,
+          "sha256": "293b6af371eee28b0ff16f0334ea19e20a3d5522143faa4b95b346855507879a"
+        },
+        {
+          "sourceMember": "libbluray-1.4.1/contrib/libudfread/COPYING",
+          "path": "bluray/libbluray-1.4.1/contrib/libudfread/COPYING",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        }
+      ]
+    },
+    {
+      "package": "caca",
+      "sourceArchive": "libcaca-0.99.beta20.tar.gz",
+      "sourceSha256": "8ad74babc63bf665b0b2378d95b4da65b7493c11bd9f3ac600517085b0c4acf2",
+      "notices": [
+        {
+          "sourceMember": "libcaca-0.99.beta20/THANKS",
+          "path": "caca/libcaca-0.99.beta20/THANKS",
+          "bytes": 984,
+          "sha256": "7e69bfa795252e074d8a6f4825959d0831e2c15db8ca57eb57eca285b075e14b"
+        },
+        {
+          "sourceMember": "libcaca-0.99.beta20/COPYING.GPL",
+          "path": "caca/libcaca-0.99.beta20/COPYING.GPL",
+          "bytes": 17989,
+          "sha256": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42"
+        },
+        {
+          "sourceMember": "libcaca-0.99.beta20/AUTHORS",
+          "path": "caca/libcaca-0.99.beta20/AUTHORS",
+          "bytes": 628,
+          "sha256": "3ec83fd70806b29112d06be9e96392ddd439f85a8b9d2b37e1d924039b0e529e"
+        },
+        {
+          "sourceMember": "libcaca-0.99.beta20/COPYING.ISC",
+          "path": "caca/libcaca-0.99.beta20/COPYING.ISC",
+          "bytes": 763,
+          "sha256": "7de62d31df6e3d2dacc9e8a6fcdcfc189035493c28a99f717f73a367dc6e1934"
+        },
+        {
+          "sourceMember": "libcaca-0.99.beta20/COPYING",
+          "path": "caca/libcaca-0.99.beta20/COPYING",
+          "bytes": 466,
+          "sha256": "d20ad7990610153b563c52681da860b8302afcf0778f75237f8815c07d05141f"
+        },
+        {
+          "sourceMember": "libcaca-0.99.beta20/COPYING.LGPL",
+          "path": "caca/libcaca-0.99.beta20/COPYING.LGPL",
+          "bytes": 26528,
+          "sha256": "d80c9d084ebfb50ea1ed91bfbc2410d6ce542097a32c43b00781b83adcb8c77f"
+        }
+      ]
+    },
+    {
+      "package": "cddb",
+      "sourceArchive": "libcddb-1.3.2.tar.bz2",
+      "sourceSha256": "35ce0ee1741ea38def304ddfe84a958901413aa829698357f0bee5bb8f0a223b",
+      "notices": [
+        {
+          "sourceMember": "libcddb-1.3.2/AUTHORS",
+          "path": "cddb/libcddb-1.3.2/AUTHORS",
+          "bytes": 75,
+          "sha256": "af8ae4fe177b21fd947ebd24fa866279d48a2d2f85a8a0192a171d86a980d2e1"
+        },
+        {
+          "sourceMember": "libcddb-1.3.2/THANKS",
+          "path": "cddb/libcddb-1.3.2/THANKS",
+          "bytes": 1022,
+          "sha256": "ee68165d7057cdc7f1feface359321bbc14c90620bb3138b83cba4b496cf6cc9"
+        },
+        {
+          "sourceMember": "libcddb-1.3.2/COPYING",
+          "path": "cddb/libcddb-1.3.2/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        }
+      ]
+    },
+    {
+      "package": "chromaprint",
+      "sourceArchive": "chromaprint-1.6.0.tar.gz",
+      "sourceSha256": "9d33482e56a1389a37a0d6742c376139fa43e3b8a63d29003222b93db2cb40da",
+      "notices": [
+        {
+          "sourceMember": "chromaprint-1.6.0/LICENSE.md",
+          "path": "chromaprint/chromaprint-1.6.0/LICENSE.md",
+          "bytes": 1801,
+          "sha256": "562cfe59627e0c4e8e3b066f3ff2e9736f83811ffe4c6c2c7796595aa7595ebd"
+        },
+        {
+          "sourceMember": "chromaprint-1.6.0/src/3rdparty/googletest/CONTRIBUTORS",
+          "path": "chromaprint/chromaprint-1.6.0/src/3rdparty/googletest/CONTRIBUTORS",
+          "bytes": 2293,
+          "sha256": "71fa46171dd98c44962614c158c0529053932a8a3fe2a6beca2dec2a6de890ca"
+        },
+        {
+          "sourceMember": "chromaprint-1.6.0/src/3rdparty/googletest/LICENSE",
+          "path": "chromaprint/chromaprint-1.6.0/src/3rdparty/googletest/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "sourceMember": "chromaprint-1.6.0/src/3rdparty/kissfft/COPYING",
+          "path": "chromaprint/chromaprint-1.6.0/src/3rdparty/kissfft/COPYING",
+          "bytes": 246,
+          "sha256": "a2840585f8411be8e6826a31ef15ae65c950bd74a2437a73b013398a934ad0c6"
+        },
+        {
+          "sourceMember": "chromaprint-1.6.0/src/3rdparty/kissfft/LICENSES/BSD-3-Clause",
+          "path": "chromaprint/chromaprint-1.6.0/src/3rdparty/kissfft/LICENSES/BSD-3-Clause",
+          "bytes": 1830,
+          "sha256": "4d6bcab46f27d6d0c878e8305d4bdcfe040d52bf6656b9771f04c9fb9902c0ed"
+        }
+      ]
+    },
+    {
+      "package": "crystalhd",
+      "sourceArchive": "crystalhd_lgpl_includes_v1.zip",
+      "sourceSha256": "818d72fdbebcfc0a449d9e39153370c80325f2490798f82f1ed98c6bb60bc18c",
+      "notices": [
+        {
+          "sourceMember": "bc_drv_if.h",
+          "path": "crystalhd/bc_drv_if.h.NOTICE.txt",
+          "bytes": 1039,
+          "sha256": "b0f42c6816eec35dda10f8b83e15aa15b822718785832c4ca4ba436da5e0e600",
+          "extraction": "complete-original-leading-copyright-and-license-comment-only"
+        },
+        {
+          "sourceMember": null,
+          "path": "crystalhd/_shared/VLC-COPYING.LIB",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+          "sourceEvidence": "vlc-3.0.24/COPYING.LIB"
+        }
+      ]
+    },
+    {
+      "package": "dav1d",
+      "sourceArchive": "dav1d-1.5.4.tar.xz",
+      "sourceSha256": "686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5",
+      "notices": [
+        {
+          "sourceMember": "dav1d-1.5.4/COPYING",
+          "path": "dav1d/dav1d-1.5.4/COPYING",
+          "bytes": 1317,
+          "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5"
+        },
+        {
+          "sourceMember": "dav1d-1.5.4/THANKS.md",
+          "path": "dav1d/dav1d-1.5.4/THANKS.md",
+          "bytes": 1591,
+          "sha256": "82a263143bc882a628922140cc57671fd4d9f52130f46fe2ec84da9485e0a6ed"
+        },
+        {
+          "sourceMember": "dav1d-1.5.4/doc/PATENTS",
+          "path": "dav1d/dav1d-1.5.4/doc/PATENTS",
+          "bytes": 5730,
+          "sha256": "335eca574598bf4ca181b12f708d6669e5a5e78c8e1513e5b35fa1f03901484b"
+        }
+      ]
+    },
+    {
+      "package": "dca",
+      "sourceArchive": "libdca-0.0.7.tar.bz2",
+      "sourceSha256": "3a0b13815f582c661d2388ffcabc2f1ea82f471783c400f765f2ec6c81065f6a",
+      "notices": [
+        {
+          "sourceMember": "libdca-0.0.7/AUTHORS",
+          "path": "dca/libdca-0.0.7/AUTHORS",
+          "bytes": 1485,
+          "sha256": "2e37e4d7cd8e37afdd2be378cc70dd64ebdd8f95150d6227a84884b599dddbd0"
+        },
+        {
+          "sourceMember": "libdca-0.0.7/COPYING",
+          "path": "dca/libdca-0.0.7/COPYING",
+          "bytes": 17987,
+          "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+        }
+      ]
+    },
+    {
+      "package": "dvbpsi",
+      "sourceArchive": "libdvbpsi-1.3.3.tar.bz2",
+      "sourceSha256": "02b5998bcf289cdfbd8757bedd5987e681309b0a25b3ffe6cebae599f7a00112",
+      "notices": [
+        {
+          "sourceMember": "libdvbpsi-1.3.3/COPYING",
+          "path": "dvbpsi/libdvbpsi-1.3.3/COPYING",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "sourceMember": "libdvbpsi-1.3.3/AUTHORS",
+          "path": "dvbpsi/libdvbpsi-1.3.3/AUTHORS",
+          "bytes": 2260,
+          "sha256": "66ad6934bcf53c8c19cfc854ad95f179f3b5bb3a052d8001f1b2e99167851148"
+        }
+      ]
+    },
+    {
+      "package": "dvdcss",
+      "sourceArchive": "libdvdcss-1.4.3.tar.bz2",
+      "sourceSha256": "233cc92f5dc01c5d3a96f5b3582be7d5cee5a35a52d3a08158745d3d86070079",
+      "notices": [
+        {
+          "sourceMember": "libdvdcss-1.4.3/COPYING",
+          "path": "dvdcss/libdvdcss-1.4.3/COPYING",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "sourceMember": "libdvdcss-1.4.3/AUTHORS",
+          "path": "dvdcss/libdvdcss-1.4.3/AUTHORS",
+          "bytes": 1708,
+          "sha256": "b2de31ac3382bbadd18eb2f9abea4e209372c62bdf722c96a62043ad074e93b1"
+        }
+      ]
+    },
+    {
+      "package": "dvdnav",
+      "sourceArchive": "libdvdnav-6.1.1.tar.bz2",
+      "sourceSha256": "c191a7475947d323ff7680cf92c0fb1be8237701885f37656c64d04e98d18d48",
+      "notices": [
+        {
+          "sourceMember": "libdvdnav-6.1.1/COPYING",
+          "path": "dvdnav/libdvdnav-6.1.1/COPYING",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        },
+        {
+          "sourceMember": "libdvdnav-6.1.1/AUTHORS",
+          "path": "dvdnav/libdvdnav-6.1.1/AUTHORS",
+          "bytes": 312,
+          "sha256": "120360d44a585630a4bcef395da624620690023ec177857b1cb6baa02513265b"
+        }
+      ]
+    },
+    {
+      "package": "dvdread",
+      "sourceArchive": "libdvdread-6.1.3.tar.bz2",
+      "sourceSha256": "ce35454997a208cbe50e91232f0e73fb1ac3471965813a13b8730a8f18a15369",
+      "notices": [
+        {
+          "sourceMember": "libdvdread-6.1.3/COPYING",
+          "path": "dvdread/libdvdread-6.1.3/COPYING",
+          "bytes": 18097,
+          "sha256": "d6cb0e9e560f51085556949a84af12b79a00f10ab8b66c752537faf7cd665572"
+        },
+        {
+          "sourceMember": "libdvdread-6.1.3/AUTHORS",
+          "path": "dvdread/libdvdread-6.1.3/AUTHORS",
+          "bytes": 753,
+          "sha256": "fa94e2d6c994ac16bc1fdc0348f694b9794fd2453fab40e3ddbc2c6401750085"
+        }
+      ]
+    },
+    {
+      "package": "ebml",
+      "sourceArchive": "libebml-1.4.6.tar.xz",
+      "sourceSha256": "d06cf1d5ad89390389eeb1eb7d50f70b55ac7538b19aeac8859eed3f2a9908dc",
+      "notices": [
+        {
+          "sourceMember": "libebml-1.4.6/LICENSE.LGPL",
+          "path": "ebml/libebml-1.4.6/LICENSE.LGPL",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        }
+      ]
+    },
+    {
+      "package": "faad2",
+      "sourceArchive": "faad2-2.11.3.tar.gz",
+      "sourceSha256": "860ab62087e336c1844a70e33196c1790b525fb9a9e7b6ac4fab1a1a4e4d5ce8",
+      "notices": [
+        {
+          "sourceMember": "faad2-2.11.3/AUTHORS",
+          "path": "faad2/faad2-2.11.3/AUTHORS",
+          "bytes": 312,
+          "sha256": "dd70437637d86b05ffa5cf1d0cccd35bba11bb8f64b523ebe28ce9a130b774f1"
+        },
+        {
+          "sourceMember": "faad2-2.11.3/COPYING",
+          "path": "faad2/faad2-2.11.3/COPYING",
+          "bytes": 18272,
+          "sha256": "d3baf3a54943cf12a994c85867a18dec84f810901b2f2878ddfd77efcc3c150f"
+        }
+      ]
+    },
+    {
+      "package": "ffmpeg",
+      "sourceArchive": "ffmpeg-8.1.2.tar.xz",
+      "sourceSha256": "464beb5e7bf0c311e68b45ae2f04e9cc2af88851abb4082231742a74d97b524c",
+      "notices": [
+        {
+          "sourceMember": "ffmpeg-8.1.2/COPYING.LGPLv2.1",
+          "path": "ffmpeg/ffmpeg-8.1.2/COPYING.LGPLv2.1",
+          "bytes": 26517,
+          "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/COPYING.GPLv2",
+          "path": "ffmpeg/ffmpeg-8.1.2/COPYING.GPLv2",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/COPYING.LGPLv3",
+          "path": "ffmpeg/ffmpeg-8.1.2/COPYING.LGPLv3",
+          "bytes": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/COPYING.GPLv3",
+          "path": "ffmpeg/ffmpeg-8.1.2/COPYING.GPLv3",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/doc/authors.texi",
+          "path": "ffmpeg/ffmpeg-8.1.2/doc/authors.texi",
+          "bytes": 403,
+          "sha256": "fb5fac6dd8f7474033e933814491a8297d8723c52be4dcbcc82eef9c4f008dd2"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/CREDITS",
+          "path": "ffmpeg/ffmpeg-8.1.2/CREDITS",
+          "bytes": 277,
+          "sha256": "28ecc96d495fa5ad48c76739a8f8d2c8980548d7a171585a6eb3f27a9ac8e4a2"
+        },
+        {
+          "sourceMember": "ffmpeg-8.1.2/LICENSE.md",
+          "path": "ffmpeg/ffmpeg-8.1.2/LICENSE.md",
+          "bytes": 4346,
+          "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+        }
+      ]
+    },
+    {
+      "package": "flac",
+      "sourceArchive": "flac-1.4.2.tar.xz",
+      "sourceSha256": "e322d58a1f48d23d9dd38f432672865f6f79e73a6f9cc5a5f57fcaa83eb5a8e4",
+      "notices": [
+        {
+          "sourceMember": "flac-1.4.2/AUTHORS",
+          "path": "flac/flac-1.4.2/AUTHORS",
+          "bytes": 2459,
+          "sha256": "195407de2759edfd405b0f855711b63f3c8911bf3034c55ec3175bb3a2c6e589"
+        },
+        {
+          "sourceMember": "flac-1.4.2/COPYING.FDL",
+          "path": "flac/flac-1.4.2/COPYING.FDL",
+          "bytes": 20403,
+          "sha256": "f45cc81b400a048b56c9edbd4c3317f7a8958463dfd55aa96f268ecfd6baa12c"
+        },
+        {
+          "sourceMember": "flac-1.4.2/COPYING.GPL",
+          "path": "flac/flac-1.4.2/COPYING.GPL",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "sourceMember": "flac-1.4.2/COPYING.LGPL",
+          "path": "flac/flac-1.4.2/COPYING.LGPL",
+          "bytes": 26436,
+          "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+        },
+        {
+          "sourceMember": "flac-1.4.2/COPYING.Xiph",
+          "path": "flac/flac-1.4.2/COPYING.Xiph",
+          "bytes": 1509,
+          "sha256": "6e58d3036f05e2a0d58af854c12a505ddbe75011d71a598a2170987f3b15408d"
+        }
+      ]
+    },
+    {
+      "package": "fluidlite",
+      "sourceArchive": "fluidlite-b0f187b404e393ee0a495b277154d55d7d03cbeb.tar.xz",
+      "sourceSha256": "15ad982b8d3251db080160ea32dbdb0a12576a784e73d0c9b792a8af7aba9029",
+      "notices": [
+        {
+          "sourceMember": "fluidlite-b0f187b404e393ee0a495b277154d55d7d03cbeb/LICENSE",
+          "path": "fluidlite/fluidlite-b0f187b404e393ee0a495b277154d55d7d03cbeb/LICENSE",
+          "bytes": 751,
+          "sha256": "6643bf675ceb1af2facafc70871b67d15de28af92414421d126ed8461735a197"
+        }
+      ]
+    },
+    {
+      "package": "fontconfig",
+      "sourceArchive": "fontconfig-2.12.3.tar.gz",
+      "sourceSha256": "ffc3cbf6dd9fcd516ee42f48306a715e66698b238933d6fa7cef02ea8b3b818e",
+      "notices": [
+        {
+          "sourceMember": "fontconfig-2.12.3/AUTHORS",
+          "path": "fontconfig/fontconfig-2.12.3/AUTHORS",
+          "bytes": 62,
+          "sha256": "db6d73a160bb2de10268f88ef60aae91771fefdeee4992b791c76ce6592a4a4b"
+        },
+        {
+          "sourceMember": "fontconfig-2.12.3/COPYING",
+          "path": "fontconfig/fontconfig-2.12.3/COPYING",
+          "bytes": 1313,
+          "sha256": "fa4cd9ab005185e10cd8f7504518856c7dd36c01e766c2bac87f4fc638e9f886"
+        }
+      ]
+    },
+    {
+      "package": "freetype2",
+      "sourceArchive": "freetype-2.14.3.tar.xz",
+      "sourceSha256": "36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f",
+      "notices": [
+        {
+          "sourceMember": "freetype-2.14.3/docs/GPLv2.TXT",
+          "path": "freetype2/freetype-2.14.3/docs/GPLv2.TXT",
+          "bytes": 17994,
+          "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+        },
+        {
+          "sourceMember": "freetype-2.14.3/docs/FTL.TXT",
+          "path": "freetype2/freetype-2.14.3/docs/FTL.TXT",
+          "bytes": 6743,
+          "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+        },
+        {
+          "sourceMember": "freetype-2.14.3/LICENSE.TXT",
+          "path": "freetype2/freetype-2.14.3/LICENSE.TXT",
+          "bytes": 2149,
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+        }
+      ]
+    },
+    {
+      "package": "fribidi",
+      "sourceArchive": "fribidi-1.0.12.tar.xz",
+      "sourceSha256": "0cd233f97fc8c67bb3ac27ce8440def5d3ffacf516765b91c2cc654498293495",
+      "notices": [
+        {
+          "sourceMember": "fribidi-1.0.12/AUTHORS",
+          "path": "fribidi/fribidi-1.0.12/AUTHORS",
+          "bytes": 1640,
+          "sha256": "cb173f55c9514c8f38f4647ac3fedd5f8611358d331e65ab955da931e826861c"
+        },
+        {
+          "sourceMember": "fribidi-1.0.12/COPYING",
+          "path": "fribidi/fribidi-1.0.12/COPYING",
+          "bytes": 26440,
+          "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+        },
+        {
+          "sourceMember": "fribidi-1.0.12/THANKS",
+          "path": "fribidi/fribidi-1.0.12/THANKS",
+          "bytes": 1242,
+          "sha256": "25add6c5ee91b15d6f7932905762d7fc71315a76f4b9750c19b8327880038655"
+        }
+      ]
+    },
+    {
+      "package": "gcrypt",
+      "sourceArchive": "libgcrypt-1.12.2.tar.bz2",
+      "sourceSha256": "7ce33c2492221a0436f96a8500215e9f3e3dcb5fd26a757cd415e7a843babd5e",
+      "notices": [
+        {
+          "sourceMember": "libgcrypt-1.12.2/COPYING",
+          "path": "gcrypt/libgcrypt-1.12.2/COPYING",
+          "bytes": 17984,
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/AUTHORS",
+          "path": "gcrypt/libgcrypt-1.12.2/AUTHORS",
+          "bytes": 9112,
+          "sha256": "481225960dca5cdffc76a5d326f8a8227de869c947c1b2a1e3957cce82156758"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/THANKS",
+          "path": "gcrypt/libgcrypt-1.12.2/THANKS",
+          "bytes": 6935,
+          "sha256": "6d3eb2da4dd3fd7fd4e0a9cd53bff761ebd12827a90012de478537e87c8e70a0"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/doc/lgpl.texi",
+          "path": "gcrypt/libgcrypt-1.12.2/doc/lgpl.texi",
+          "bytes": 26458,
+          "sha256": "c47c88ec7fc6cecd868fd81caaee85613da391960c64d5441765260fd4f924b5"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/doc/gpl.texi",
+          "path": "gcrypt/libgcrypt-1.12.2/doc/gpl.texi",
+          "bytes": 18223,
+          "sha256": "e125c8d295908f4e99caa16076abcfd61b41b0d7d679227c29fafdf95989c671"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/COPYING.LIB",
+          "path": "gcrypt/libgcrypt-1.12.2/COPYING.LIB",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "sourceMember": "libgcrypt-1.12.2/LICENSES",
+          "path": "gcrypt/libgcrypt-1.12.2/LICENSES",
+          "bytes": 14713,
+          "sha256": "289f9561592dbcee8f1f9a1aca26df3cb0dbf3a989dbdd08effac19a8192c834"
+        }
+      ]
+    },
+    {
+      "package": "gettext",
+      "sourceArchive": "gettext-0.26.tar.xz",
+      "sourceSha256": "d1fb86e260cfe7da6031f94d2e44c0da55903dbae0a2fa0fae78c91ae1b56f00",
+      "notices": [
+        {
+          "sourceMember": "gettext-0.26/AUTHORS",
+          "path": "gettext/gettext-0.26/AUTHORS",
+          "bytes": 2572,
+          "sha256": "b0a47f17ae2fbe64475d144d03076fe3893f7c2a7bb93af357db41beae4b7bda"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/AUTHORS",
+          "path": "gettext/gettext-0.26/gettext-runtime/AUTHORS",
+          "bytes": 109,
+          "sha256": "d013195954f932a5234c357ef74c4e872d0a067c8b60aa1f57ce8e68f8026f4c"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/intl/AUTHORS",
+          "path": "gettext/gettext-0.26/gettext-runtime/intl/AUTHORS",
+          "bytes": 96,
+          "sha256": "4bd9e2cd15ab6d68b30965512b63a1d4aae95f4c1dd040657a4d1300252a695f"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/libasprintf/AUTHORS",
+          "path": "gettext/gettext-0.26/gettext-runtime/libasprintf/AUTHORS",
+          "bytes": 33,
+          "sha256": "590f1c4aa72c2c14dd52b0e230bf652e2109d00099fc7bb272e4594b800913d0"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/AUTHORS",
+          "path": "gettext/gettext-0.26/gettext-tools/AUTHORS",
+          "bytes": 60,
+          "sha256": "4027705b723299dd8e6153939ab73395e22685503994cc8de92fa2ebaa432a49"
+        },
+        {
+          "sourceMember": "gettext-0.26/libtextstyle/AUTHORS",
+          "path": "gettext/gettext-0.26/libtextstyle/AUTHORS",
+          "bytes": 271,
+          "sha256": "71c0580cb05d28848b341e5a4da2761d4a8eb482592358d646dab104648a8303"
+        },
+        {
+          "sourceMember": "gettext-0.26/COPYING",
+          "path": "gettext/gettext-0.26/COPYING",
+          "bytes": 35151,
+          "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/COPYING",
+          "path": "gettext/gettext-0.26/gettext-runtime/COPYING",
+          "bytes": 495,
+          "sha256": "7ef2cdfe58e0c0460657b6598b49af29d4e03c1e41cbaf0e1da1eb8ad74b95d0"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/libasprintf/COPYING",
+          "path": "gettext/gettext-0.26/gettext-runtime/libasprintf/COPYING",
+          "bytes": 65,
+          "sha256": "03133addae5b99a6148c538300e6d97074453089be1423b741bd081f18e2b298"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/COPYING",
+          "path": "gettext/gettext-0.26/gettext-tools/COPYING",
+          "bytes": 78,
+          "sha256": "5d4cff30d5038f82a0edc79798456049b61e1752fdb7e9ab1f4bfb9fae3a7303"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/gnulib-lib/libxml/COPYING",
+          "path": "gettext/gettext-0.26/gettext-tools/gnulib-lib/libxml/COPYING",
+          "bytes": 1289,
+          "sha256": "c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd"
+        },
+        {
+          "sourceMember": "gettext-0.26/gnulib-local/lib/libxml/COPYING",
+          "path": "gettext/gettext-0.26/gnulib-local/lib/libxml/COPYING",
+          "bytes": 1289,
+          "sha256": "c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd"
+        },
+        {
+          "sourceMember": "gettext-0.26/libtextstyle/COPYING",
+          "path": "gettext/gettext-0.26/libtextstyle/COPYING",
+          "bytes": 35151,
+          "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b"
+        },
+        {
+          "sourceMember": "gettext-0.26/libtextstyle/lib/libxml/COPYING",
+          "path": "gettext/gettext-0.26/libtextstyle/lib/libxml/COPYING",
+          "bytes": 1289,
+          "sha256": "c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/intl/COPYING.LIB",
+          "path": "gettext/gettext-0.26/gettext-runtime/intl/COPYING.LIB",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/libasprintf/COPYING.LIB",
+          "path": "gettext/gettext-0.26/gettext-runtime/libasprintf/COPYING.LIB",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-0.23.2/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-0.23.2/LICENSE",
+          "bytes": 1085,
+          "sha256": "5f9cf9fb6acb1972b35ae29119ce563bb60ec097656bc4b69b9bac2d04c7a147"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-0.23.2/lib/src/unicode/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-0.23.2/lib/src/unicode/LICENSE",
+          "bytes": 21001,
+          "sha256": "6a18c5fac70d7860b57f5b72b4e2c9a1ba6b3d2741eef7ff9767c5379364f10d"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-d-0.8.2/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-d-0.8.2/LICENSE",
+          "bytes": 1040,
+          "sha256": "ecf206b1a27e8e4ea07f1e1529cb111b4be5ce8420bd27b8269981d9c0c389f8"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-go-0.23.4/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-go-0.23.4/LICENSE",
+          "bytes": 1080,
+          "sha256": "2e0110e07abef7c2548b26ec9d6969775617ca539a0dc8dbeeb14d6452c711d1"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-rust-0.23.2/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-rust-0.23.2/LICENSE",
+          "bytes": 1080,
+          "sha256": "31d5b6f4243d5c7c6e1c4ebbbb9f6407bd1457a08bcc4f706521710341acba36"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/tree-sitter-typescript-0.23.2/LICENSE",
+          "path": "gettext/gettext-0.26/gettext-tools/tree-sitter-typescript-0.23.2/LICENSE",
+          "bytes": 1080,
+          "sha256": "49bf33cf78ef5897e4e161ce1517df7de1ae5042a65b6bcfd44401e0fc606559"
+        },
+        {
+          "sourceMember": "gettext-0.26/THANKS",
+          "path": "gettext/gettext-0.26/THANKS",
+          "bytes": 16770,
+          "sha256": "9e983b35e4c818b00ee5568cede04ef1c2eb24d4dd96e4e91c9b904e86692795"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/libasprintf/gpl.texi",
+          "path": "gettext/gettext-0.26/gettext-runtime/libasprintf/gpl.texi",
+          "bytes": 18223,
+          "sha256": "e125c8d295908f4e99caa16076abcfd61b41b0d7d679227c29fafdf95989c671"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/doc/gpl.texi",
+          "path": "gettext/gettext-0.26/gettext-tools/doc/gpl.texi",
+          "bytes": 18223,
+          "sha256": "e125c8d295908f4e99caa16076abcfd61b41b0d7d679227c29fafdf95989c671"
+        },
+        {
+          "sourceMember": "gettext-0.26/libtextstyle/doc/gpl.texi",
+          "path": "gettext/gettext-0.26/libtextstyle/doc/gpl.texi",
+          "bytes": 35089,
+          "sha256": "e3189873c8fc0b9bff643a9a3fc7863c971d925f493384d16cde633068c502df"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-runtime/libasprintf/lgpl.texi",
+          "path": "gettext/gettext-0.26/gettext-runtime/libasprintf/lgpl.texi",
+          "bytes": 26458,
+          "sha256": "c47c88ec7fc6cecd868fd81caaee85613da391960c64d5441765260fd4f924b5"
+        },
+        {
+          "sourceMember": "gettext-0.26/gettext-tools/doc/lgpl.texi",
+          "path": "gettext/gettext-0.26/gettext-tools/doc/lgpl.texi",
+          "bytes": 26458,
+          "sha256": "c47c88ec7fc6cecd868fd81caaee85613da391960c64d5441765260fd4f924b5"
+        }
+      ]
+    },
+    {
+      "package": "glew",
+      "sourceArchive": "glew-2.3.1.tgz",
+      "sourceSha256": "b64790f94b926acd7e8f84c5d6000a86cb43967bd1e688b03089079799c9e889",
+      "notices": [
+        {
+          "sourceMember": "glew-2.3.1/doc/gpl.txt",
+          "path": "glew/glew-2.3.1/doc/gpl.txt",
+          "bytes": 17989,
+          "sha256": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42"
+        },
+        {
+          "sourceMember": "glew-2.3.1/LICENSE.txt",
+          "path": "glew/glew-2.3.1/LICENSE.txt",
+          "bytes": 3797,
+          "sha256": "8991cd11befec7c6a63662700f03c0cc42e864b6e77c7e70b80297c951a7f0ff"
+        }
+      ]
+    },
+    {
+      "package": "gme",
+      "sourceArchive": "game-music-emu-0.6.5.tar.gz",
+      "sourceSha256": "8531678502451c2cf04248cda45c8b4645e19fcfb63e6a7ec2549641c47bb392",
+      "notices": [
+        {
+          "sourceMember": "game-music-emu-0.6.5/gme/ext/LICENSE",
+          "path": "gme/game-music-emu-0.6.5/gme/ext/LICENSE",
+          "bytes": 1089,
+          "sha256": "8fb093f26ed0d78c8ca033bbec7063ac5b34c5d2475e6bd121d03ccfaaf2355f"
+        },
+        {
+          "sourceMember": "game-music-emu-0.6.5/license.gpl2.txt",
+          "path": "gme/game-music-emu-0.6.5/license.gpl2.txt",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "sourceMember": "game-music-emu-0.6.5/license.txt",
+          "path": "gme/game-music-emu-0.6.5/license.txt",
+          "bytes": 26938,
+          "sha256": "d2efc89fbb7533572a472d34e07964951810a3a4f8d3159ecc2dcaa1452c5c26"
+        }
+      ]
+    },
+    {
+      "package": "gmp",
+      "sourceArchive": "gmp-6.3.0.tar.xz",
+      "sourceSha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+      "notices": [
+        {
+          "sourceMember": "gmp-6.3.0/COPYING",
+          "path": "gmp/gmp-6.3.0/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "gmp-6.3.0/COPYING.LESSERv3",
+          "path": "gmp/gmp-6.3.0/COPYING.LESSERv3",
+          "bytes": 7639,
+          "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+        },
+        {
+          "sourceMember": "gmp-6.3.0/AUTHORS",
+          "path": "gmp/gmp-6.3.0/AUTHORS",
+          "bytes": 4098,
+          "sha256": "da5870e2f0482c5dc15b4cfed8bbfb51ce1279c8f8fc52bdb8c13c7cee949c32"
+        }
+      ]
+    },
+    {
+      "package": "gnutls",
+      "sourceArchive": "gnutls-3.8.13.tar.xz",
+      "sourceSha256": "ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e",
+      "notices": [
+        {
+          "sourceMember": "gnutls-3.8.13/AUTHORS",
+          "path": "gnutls/gnutls-3.8.13/AUTHORS",
+          "bytes": 11500,
+          "sha256": "79bca1136dc515b930f2f85975c0c4c687e7d430be27a9b59113637c33b8e7a3"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/COPYING",
+          "path": "gnutls/gnutls-3.8.13/COPYING",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/COPYING.LESSERv2",
+          "path": "gnutls/gnutls-3.8.13/COPYING.LESSERv2",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/THANKS",
+          "path": "gnutls/gnutls-3.8.13/THANKS",
+          "bytes": 9615,
+          "sha256": "0795315b015c1b92beab235ce9b843e8bae9d89f47a599e5bed8fd578f35a8e3"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/doc/examples/tlsproxy/LICENSE",
+          "path": "gnutls/gnutls-3.8.13/doc/examples/tlsproxy/LICENSE",
+          "bytes": 1090,
+          "sha256": "b42dbe48110754b99f026ad30e69b1069f826fb07e7c616b526bd1090952fb1b"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/lib/accelerated/x86/license.txt",
+          "path": "gnutls/gnutls-3.8.13/lib/accelerated/x86/license.txt",
+          "bytes": 2463,
+          "sha256": "0c35a52bcfa4da2f0df4a1282a6034e211c976b8b6d43691a639eef9c8aebf7e"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/lib/crau/LICENSE",
+          "path": "gnutls/gnutls-3.8.13/lib/crau/LICENSE",
+          "bytes": 1067,
+          "sha256": "b3c9aed2f5750f6bf698c74916d675d1734e12455b96bfdf6f90e23ab01595cd"
+        },
+        {
+          "sourceMember": "gnutls-3.8.13/lib/inih/LICENSE.txt",
+          "path": "gnutls/gnutls-3.8.13/lib/inih/LICENSE.txt",
+          "bytes": 1510,
+          "sha256": "9ae3b39e83e9158e44b67733baa3bb2d84e80efdcfb14a5820210a42c7abdf7f"
+        }
+      ]
+    },
+    {
+      "package": "goom",
+      "sourceArchive": "goom-2k4-0-src.tar.gz",
+      "sourceSha256": "d993c904c05faba87fd7f159291fa1cb7aadcff2edd28454d8e967880a8a0c85",
+      "notices": [
+        {
+          "sourceMember": "goom2k4-0/AUTHORS",
+          "path": "goom/goom2k4-0/AUTHORS",
+          "bytes": 246,
+          "sha256": "93dc1df59907b15ac7902ad51ed093896f727e3a7e13e0e32629dc1dbb4d6677"
+        },
+        {
+          "sourceMember": "goom2k4-0/COPYING",
+          "path": "goom/goom2k4-0/COPYING",
+          "bytes": 159,
+          "sha256": "013ea5bfa603f5f2f6e43103102e077ba8e5b311c8235fe18018f2f17cf15093"
+        },
+        {
+          "sourceMember": "goom2k4-0/gtk-gui-devel/COPYING",
+          "path": "goom/goom2k4-0/gtk-gui-devel/COPYING",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        }
+      ]
+    },
+    {
+      "package": "gpg-error",
+      "sourceArchive": "libgpg-error-1.61.tar.bz2",
+      "sourceSha256": "7a85413f2bc354f4f8aa832b718af122e48965e9e0eb9012ee659c13c6385c93",
+      "notices": [
+        {
+          "sourceMember": "libgpg-error-1.61/COPYING",
+          "path": "gpg-error/libgpg-error-1.61/COPYING",
+          "bytes": 18002,
+          "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+        },
+        {
+          "sourceMember": "libgpg-error-1.61/AUTHORS",
+          "path": "gpg-error/libgpg-error-1.61/AUTHORS",
+          "bytes": 2468,
+          "sha256": "341d1631ccd3eb5b8a054177cfdaeb5e16357f27fd985486da5f38faf879db3f"
+        },
+        {
+          "sourceMember": "libgpg-error-1.61/THANKS",
+          "path": "gpg-error/libgpg-error-1.61/THANKS",
+          "bytes": 629,
+          "sha256": "c2fc5f875cc64546b5c71beb4a0e605b01ebf5f46f45573a67b92b85e934582b"
+        },
+        {
+          "sourceMember": "libgpg-error-1.61/doc/lgpl.texi",
+          "path": "gpg-error/libgpg-error-1.61/doc/lgpl.texi",
+          "bytes": 26729,
+          "sha256": "a43ecd7f34e21cf7b25150ecbbb00511ca77515211b1b8e5e21e8b48dd2ba7f7"
+        },
+        {
+          "sourceMember": "libgpg-error-1.61/doc/gpl.texi",
+          "path": "gpg-error/libgpg-error-1.61/doc/gpl.texi",
+          "bytes": 18332,
+          "sha256": "8397a8504200dd45db1d0663b4d62293f246d8af8257eebec0cd0953035b6bc6"
+        },
+        {
+          "sourceMember": "libgpg-error-1.61/COPYING.LIB",
+          "path": "gpg-error/libgpg-error-1.61/COPYING.LIB",
+          "bytes": 26527,
+          "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+        }
+      ]
+    },
+    {
+      "package": "gsm",
+      "sourceArchive": "libgsm_1.0.13.tar.gz",
+      "sourceSha256": "52c518244d428c2e56c543b98c9135f4a76ff780c32455580b793f60a0a092ad",
+      "notices": [
+        {
+          "sourceMember": "gsm-1.0-pl13/COPYRIGHT",
+          "path": "gsm/gsm-1.0-pl13/COPYRIGHT",
+          "bytes": 1450,
+          "sha256": "81c68a3374937ed9b5e4929c709e81a2c4b35b5d1f450ecf8c473e2daea46ff6"
+        }
+      ]
+    },
+    {
+      "package": "harfbuzz",
+      "sourceArchive": "harfbuzz-14.2.1.tar.xz",
+      "sourceSha256": "a54a5d8e9380a41fbb762ce367bcbf7704792dfca0d93f1bbca86c5a57902e0e",
+      "notices": [
+        {
+          "sourceMember": "harfbuzz-14.2.1/AUTHORS",
+          "path": "harfbuzz/harfbuzz-14.2.1/AUTHORS",
+          "bytes": 201,
+          "sha256": "19bfe8f5ed100636cd24ab0c90a3f71c21d8b02d9ba00719447a0faab364d49f"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/COPYING",
+          "path": "harfbuzz/harfbuzz-14.2.1/COPYING",
+          "bytes": 1971,
+          "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/THANKS",
+          "path": "harfbuzz/harfbuzz-14.2.1/THANKS",
+          "bytes": 129,
+          "sha256": "c3b0ec2818baddb5ca2b97a611d1db4b8f01cb3d803890411bb710a2b6e41697"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/src/ms-use/COPYING",
+          "path": "harfbuzz/harfbuzz-14.2.1/src/ms-use/COPYING",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/test/COPYING",
+          "path": "harfbuzz/harfbuzz-14.2.1/test/COPYING",
+          "bytes": 4370,
+          "sha256": "9b35b8485f69cd298fccbb3c40a827dc06cf1185553bef827903497d2944a8d7"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/test/shape/data/aots/COPYING",
+          "path": "harfbuzz/harfbuzz-14.2.1/test/shape/data/aots/COPYING",
+          "bytes": 593,
+          "sha256": "f55f74bf740db07bb032a90aa74af4307adea3d489c1ccba12453cf0c0a764cb"
+        },
+        {
+          "sourceMember": "harfbuzz-14.2.1/test/shape/data/text-rendering-tests/COPYING",
+          "path": "harfbuzz/harfbuzz-14.2.1/test/shape/data/text-rendering-tests/COPYING",
+          "bytes": 584,
+          "sha256": "d24039e4d22c9bc72096f6174374539d92a3d6e1163938546ec59179fe095e6f"
+        }
+      ]
+    },
+    {
+      "package": "iconv",
+      "sourceArchive": "libiconv-1.17.tar.gz",
+      "sourceSha256": "8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313",
+      "notices": [
+        {
+          "sourceMember": "libiconv-1.17/COPYING.LIB",
+          "path": "iconv/libiconv-1.17/COPYING.LIB",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "sourceMember": "libiconv-1.17/THANKS",
+          "path": "iconv/libiconv-1.17/THANKS",
+          "bytes": 521,
+          "sha256": "dde6eff285c51ad174980ec56a430510472d75fd8ab20220bf0c29613eb236ec"
+        },
+        {
+          "sourceMember": "libiconv-1.17/AUTHORS",
+          "path": "iconv/libiconv-1.17/AUTHORS",
+          "bytes": 31,
+          "sha256": "ed10ef2a01effb12849006d43262ffde5cf72a7d5423bbc8aa66fc6959774c0c"
+        },
+        {
+          "sourceMember": "libiconv-1.17/libcharset/COPYING.LIB",
+          "path": "iconv/libiconv-1.17/libcharset/COPYING.LIB",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "sourceMember": "libiconv-1.17/libcharset/AUTHORS",
+          "path": "iconv/libiconv-1.17/libcharset/AUTHORS",
+          "bytes": 31,
+          "sha256": "ed10ef2a01effb12849006d43262ffde5cf72a7d5423bbc8aa66fc6959774c0c"
+        },
+        {
+          "sourceMember": "libiconv-1.17/COPYING",
+          "path": "iconv/libiconv-1.17/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "package": "jpeg",
+      "sourceArchive": "jpegsrc.v10.tar.gz",
+      "sourceSha256": "8b9eaa13242690ebd03e1728ab1edf97a81a78ed6e83624d493655f31ac95ab5",
+      "notices": [
+        {
+          "sourceMember": "jpeg-10/README",
+          "path": "jpeg/jpeg-10/README",
+          "bytes": 18711,
+          "sha256": "913af09f785683accdf660b85dcf27fdd567d4ad649daa95cb8771b040db79d1"
+        }
+      ]
+    },
+    {
+      "package": "kate",
+      "sourceArchive": "libkate-0.4.1.tar.gz",
+      "sourceSha256": "c40e81d5866c3d4bf744e76ce0068d8f388f0e25f7e258ce0c8e76d7adc87b68",
+      "notices": [
+        {
+          "sourceMember": "libkate-0.4.1/contrib/build/win32/copying.txt",
+          "path": "kate/libkate-0.4.1/contrib/build/win32/copying.txt",
+          "bytes": 1883,
+          "sha256": "a298c93dce08061046b688bfc5e5bbe48d57243bdb06e5f58c092232b4d705de"
+        },
+        {
+          "sourceMember": "libkate-0.4.1/AUTHORS",
+          "path": "kate/libkate-0.4.1/AUTHORS",
+          "bytes": 42,
+          "sha256": "a08eb8da815d28cb41d46070864b09028628def91f1e61c9ad908e90bcaa1507"
+        },
+        {
+          "sourceMember": "libkate-0.4.1/COPYING",
+          "path": "kate/libkate-0.4.1/COPYING",
+          "bytes": 1454,
+          "sha256": "e039f0cf4f81b9bc3bc7a545d9d83ce2304565032d1c7756b1831972cdc5bbb4"
+        },
+        {
+          "sourceMember": "libkate-0.4.1/THANKS",
+          "path": "kate/libkate-0.4.1/THANKS",
+          "bytes": 701,
+          "sha256": "342954b39002bf78cc5db28f86666b074aebdb7150393a013b9098d74ff682b1"
+        }
+      ]
+    },
+    {
+      "package": "lame",
+      "sourceArchive": "lame-3.100.tar.gz",
+      "sourceSha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+      "notices": [
+        {
+          "sourceMember": "lame-3.100/COPYING",
+          "path": "lame/lame-3.100/COPYING",
+          "bytes": 25284,
+          "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd"
+        },
+        {
+          "sourceMember": "lame-3.100/LICENSE",
+          "path": "lame/lame-3.100/LICENSE",
+          "bytes": 487,
+          "sha256": "7a40cbd8818c57e5285e83c772a459a996d1662c824a879836b97b473c07cae4"
+        },
+        {
+          "sourceMember": "lame-3.100/mpglib/AUTHORS",
+          "path": "lame/lame-3.100/mpglib/AUTHORS",
+          "bytes": 604,
+          "sha256": "d8ecf9556aafa8c653796d6be3dc43deea374257680e21c30109a5c3c4484263"
+        },
+        {
+          "sourceMember": "lame-3.100/debian/copyright",
+          "path": "lame/lame-3.100/debian/copyright",
+          "bytes": 2303,
+          "sha256": "1f27f9f698183275bd615c1140b7bf6e498750e9280597c6eb39790e54ae809b"
+        }
+      ]
+    },
+    {
+      "package": "libarchive",
+      "sourceArchive": "libarchive-3.8.9.tar.xz",
+      "sourceSha256": "888c934f9d95648ecb9163dc8e23ab80a476ecb81a8f1154704a227b5b676dde",
+      "notices": [
+        {
+          "sourceMember": "libarchive-3.8.9/COPYING",
+          "path": "libarchive/libarchive-3.8.9/COPYING",
+          "bytes": 3089,
+          "sha256": "30e556b3959e3985d66efefec5eaac51d4995053caa1d3cffe6eb916f146f229"
+        }
+      ]
+    },
+    {
+      "package": "libmpeg2",
+      "sourceArchive": "libmpeg2-0.5.1.tar.gz",
+      "sourceSha256": "dee22e893cb5fc2b2b6ebd60b88478ab8556cb3b93f9a0d7ce8f3b61851871d4",
+      "notices": [
+        {
+          "sourceMember": "libmpeg2-0.5.1/AUTHORS",
+          "path": "libmpeg2/libmpeg2-0.5.1/AUTHORS",
+          "bytes": 1880,
+          "sha256": "5f84f6cffba602c99116ff2603d6fec66ecfd6ef046b164264e61787a6853d7d"
+        },
+        {
+          "sourceMember": "libmpeg2-0.5.1/COPYING",
+          "path": "libmpeg2/libmpeg2-0.5.1/COPYING",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        }
+      ]
+    },
+    {
+      "package": "libplacebo",
+      "sourceArchive": "libplacebo-0.2.1.tar.gz",
+      "sourceSha256": "d5d920a1745e4209287d32e8b96a85127b61b843304813980e11104cd9f15e82",
+      "notices": [
+        {
+          "sourceMember": "libplacebo-0.2.1/LICENSE",
+          "path": "libplacebo/libplacebo-0.2.1/LICENSE",
+          "bytes": 25355,
+          "sha256": "f55acf28f3afab9acf0b0184681725281c5786642fd4613012a24c033f7689a2"
+        }
+      ]
+    },
+    {
+      "package": "librist",
+      "sourceArchive": "librist-v0.2.20.tar.gz",
+      "sourceSha256": "9e40eeb87f014790531ad41326cc271b930a65962e4b15231b301fc59b29fe31",
+      "notices": [
+        {
+          "sourceMember": "librist-v0.2.20/COPYING",
+          "path": "librist/librist-v0.2.20/COPYING",
+          "bytes": 1319,
+          "sha256": "b9841591a3452ee30033d8e3586c7b1244a0b2fc1dc6cb04576957c313cb2792"
+        },
+        {
+          "sourceMember": "librist-v0.2.20/THANKS.md",
+          "path": "librist/librist-v0.2.20/THANKS.md",
+          "bytes": 925,
+          "sha256": "e5c6254cd7e5f0cf61738491bb45bf6650ea09f7df862599232844b89539f3a8"
+        },
+        {
+          "sourceMember": "librist-v0.2.20/contrib/mbedtls/LICENSE",
+          "path": "librist/librist-v0.2.20/contrib/mbedtls/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ]
+    },
+    {
+      "package": "libxml2",
+      "sourceArchive": "libxml2-2.15.3.tar.xz",
+      "sourceSha256": "78262a6e7ac170d6528ebfe2efccdf220191a5af6a6cd61ea4a9a9a5042c7a07",
+      "notices": [
+        {
+          "sourceMember": "libxml2-2.15.3/Copyright",
+          "path": "libxml2/libxml2-2.15.3/Copyright",
+          "bytes": 1314,
+          "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626"
+        },
+        {
+          "sourceMember": "libxml2-2.15.3/test/html-tokenizer/NOTICE",
+          "path": "libxml2/libxml2-2.15.3/test/html-tokenizer/NOTICE",
+          "bytes": 1270,
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        },
+        {
+          "sourceMember": "libxml2-2.15.3/result/html-tokenizer/NOTICE",
+          "path": "libxml2/libxml2-2.15.3/result/html-tokenizer/NOTICE",
+          "bytes": 1270,
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        }
+      ]
+    },
+    {
+      "package": "live555",
+      "sourceArchive": "live.2026.06.24.tar.gz",
+      "sourceSha256": "b22182db20fe554be886f74c453f6b900e471de9585a401b0b60228aebc27ef7",
+      "notices": [
+        {
+          "sourceMember": "live/COPYING",
+          "path": "live555/live/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "live/COPYING.LESSER",
+          "path": "live555/live/COPYING.LESSER",
+          "bytes": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        }
+      ]
+    },
+    {
+      "package": "lua",
+      "sourceArchive": "lua-5.1.5.tar.gz",
+      "sourceSha256": "2640fc56a795f29d28ef15e13c34a47e223960b0240e8cb0a82d9b0738695333",
+      "notices": [
+        {
+          "sourceMember": "lua-5.1.5/COPYRIGHT",
+          "path": "lua/lua-5.1.5/COPYRIGHT",
+          "bytes": 1528,
+          "sha256": "ee5e3e82af1e1b543c4f216e399d7c8cfee797711913f349e385101c4ae60a79"
+        }
+      ]
+    },
+    {
+      "package": "mad",
+      "sourceArchive": "libmad-0.16.4.tar.gz",
+      "sourceSha256": "f4eb229452252600ce48f3c2704c9e6d97b789f81e31c37b0c67dd66f445ea35",
+      "notices": [
+        {
+          "sourceMember": "libmad/COPYING",
+          "path": "mad/libmad/COPYING",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        },
+        {
+          "sourceMember": "libmad/COPYRIGHT",
+          "path": "mad/libmad/COPYRIGHT",
+          "bytes": 918,
+          "sha256": "9ac7e0557d59330c17c8912659d75aa53b23b3fe0e0c79d6a2236d4cb91b2346"
+        },
+        {
+          "sourceMember": "libmad/CREDITS",
+          "path": "mad/libmad/CREDITS",
+          "bytes": 4263,
+          "sha256": "2746d3dfebceb3e298f448e3be49183a8e92e2b79463b7bf4a861afa018a2cd8"
+        }
+      ]
+    },
+    {
+      "package": "matroska",
+      "sourceArchive": "libmatroska-1.7.2.tar.xz",
+      "sourceSha256": "f3e4d406daf7f1399962c43940e4a87de089474d5bcfbf2e6ca516e98bb87cfc",
+      "notices": [
+        {
+          "sourceMember": "libmatroska-1.7.2/LICENSE.LGPL",
+          "path": "matroska/libmatroska-1.7.2/LICENSE.LGPL",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        }
+      ]
+    },
+    {
+      "package": "microdns",
+      "sourceArchive": "microdns-0.2.0.tar.xz",
+      "sourceSha256": "2da28e7dda4861d76f797f92ac3e6c3e048333b95f9e4fc3a6548ad8afd8c446",
+      "notices": [
+        {
+          "sourceMember": "microdns-0.2.0/AUTHORS",
+          "path": "microdns/microdns-0.2.0/AUTHORS",
+          "bytes": 560,
+          "sha256": "23c9bc2b0e5da9c1b08a5392f2b05615b5a85e6e12d0d3331708519aa50ec9d7"
+        },
+        {
+          "sourceMember": "microdns-0.2.0/COPYING",
+          "path": "microdns/microdns-0.2.0/COPYING",
+          "bytes": 26598,
+          "sha256": "f764ee3ea10043718c7cc2ce3e2c8a8b3a4e9a3f4b5b4bbb74c603d2a974aabe"
+        }
+      ]
+    },
+    {
+      "package": "mingw64",
+      "sourceArchive": "mingw-w64-v14.0.0.tar.bz2",
+      "sourceSha256": "6eaf921d9eb987d3820b364ea9775bc19b965ec81490b6fdd716526c28e1995c",
+      "notices": [
+        {
+          "sourceMember": "mingw-w64-v14.0.0/AUTHORS",
+          "path": "mingw64/mingw-w64-v14.0.0/AUTHORS",
+          "bytes": 2398,
+          "sha256": "8f308316e7a94b8410f871868bd3948f126526dc1775aeee97a0e365f9a0fd9f"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/COPYING",
+          "bytes": 2326,
+          "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/COPYING.MinGW-w64-runtime/COPYING.MinGW-w64-runtime.txt",
+          "path": "mingw64/mingw-w64-v14.0.0/COPYING.MinGW-w64-runtime/COPYING.MinGW-w64-runtime.txt",
+          "bytes": 12155,
+          "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/COPYING.MinGW-w64/COPYING.MinGW-w64.txt",
+          "path": "mingw64/mingw-w64-v14.0.0/COPYING.MinGW-w64/COPYING.MinGW-w64.txt",
+          "bytes": 5905,
+          "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-crt/profile/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-crt/profile/COPYING",
+          "bytes": 18007,
+          "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-libraries/libmangle/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-libraries/libmangle/COPYING",
+          "bytes": 1109,
+          "sha256": "ae7a4090983e6ea0780c60c454016fd5e93b414b0de26ad041608ec66fbb54bb"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-libraries/pseh/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-libraries/pseh/COPYING",
+          "bytes": 1062,
+          "sha256": "5ece225da0c7f0dba84dc64d773b5231075e8fee61cbeceb9f774e939918e638"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-libraries/winpthreads/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-libraries/winpthreads/COPYING",
+          "bytes": 2883,
+          "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-libraries/winstorecompat/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-libraries/winstorecompat/COPYING",
+          "bytes": 1099,
+          "sha256": "fa7368d1f93d890c173177475d8ec7aff265a7d08f1f364d66f74d138978ce36"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-tools/gendef/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-tools/gendef/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-tools/genidl/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-tools/genidl/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "mingw-w64-v14.0.0/mingw-w64-tools/genpeimg/COPYING",
+          "path": "mingw64/mingw-w64-v14.0.0/mingw-w64-tools/genpeimg/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "package": "modplug",
+      "sourceArchive": "libmodplug-0.8.9.0.tar.gz",
+      "sourceSha256": "457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de",
+      "notices": [
+        {
+          "sourceMember": "libmodplug-0.8.9.0/COPYING",
+          "path": "modplug/libmodplug-0.8.9.0/COPYING",
+          "bytes": 57,
+          "sha256": "49942e7b3b175f549e751feb08b5270ca6f6c5fb7a1be9f9517db275ec32c92e"
+        },
+        {
+          "sourceMember": "libmodplug-0.8.9.0/AUTHORS",
+          "path": "modplug/libmodplug-0.8.9.0/AUTHORS",
+          "bytes": 648,
+          "sha256": "9bf4fdca73ed1f9654ba5930261fd8d31d3874327e9925bf64c4ac7dfd9ac11a"
+        }
+      ]
+    },
+    {
+      "package": "mpcdec",
+      "sourceArchive": "musepack_src_r481.tar.gz",
+      "sourceSha256": "8988bc1f05ecdf6067ed06c576dc9ed03760361ae6190952ac29b5953c49dbc6",
+      "notices": [
+        {
+          "sourceMember": "musepack_src_r481/libmpcdec/AUTHORS",
+          "path": "mpcdec/musepack_src_r481/libmpcdec/AUTHORS",
+          "bytes": 282,
+          "sha256": "de1731813aa3788c5b27b22fd8750ba6597990243edbee68e464041076ade17d"
+        },
+        {
+          "sourceMember": "musepack_src_r481/libmpcdec/COPYING",
+          "path": "mpcdec/musepack_src_r481/libmpcdec/COPYING",
+          "bytes": 1563,
+          "sha256": "141f551d8e4f037b7f6bc9136b7d3116c7ae9ec8da10c4f14c07c6dc34bc9aa5"
+        }
+      ]
+    },
+    {
+      "package": "mpg123",
+      "sourceArchive": "mpg123-1.33.6.tar.bz2",
+      "sourceSha256": "929a7c18ba662b8927aed4de229ad9ae8ab2b4806dd0f30b90113eb1b4e2195a",
+      "notices": [
+        {
+          "sourceMember": "mpg123-1.33.6/AUTHORS",
+          "path": "mpg123/mpg123-1.33.6/AUTHORS",
+          "bytes": 9370,
+          "sha256": "fb18c9abae864a20f691e949e4c7871c79f5f0861b3a3dcaf5881c3c02cf5cc2"
+        },
+        {
+          "sourceMember": "mpg123-1.33.6/COPYING",
+          "path": "mpg123/mpg123-1.33.6/COPYING",
+          "bytes": 40718,
+          "sha256": "c22482728a634a8dfdb4ff72a96d4c1ed64cd8f3e79335c401751ac591609366"
+        },
+        {
+          "sourceMember": "mpg123-1.33.6/doc/PATENTS",
+          "path": "mpg123/mpg123-1.33.6/doc/PATENTS",
+          "bytes": 3211,
+          "sha256": "a16db5483cc2ab07a81b152fe9147f0ef196d38d26477c7b8c803aff6522e8bc"
+        },
+        {
+          "sourceMember": "mpg123-1.33.6/doc/LICENSE",
+          "path": "mpg123/mpg123-1.33.6/doc/LICENSE",
+          "bytes": 957,
+          "sha256": "cca79ea6fc0a7715e52450df2d86311f990e85067dd13f4d7f5a88d4fd23a07c"
+        },
+        {
+          "sourceMember": "mpg123-1.33.6/doc/THANKS",
+          "path": "mpg123/mpg123-1.33.6/doc/THANKS",
+          "bytes": 727,
+          "sha256": "1f2dc617e7fdffd7b0ea57080486147204fdd31fd99056c22c4cc2bf9fb1b81f"
+        }
+      ]
+    },
+    {
+      "package": "mysofa",
+      "sourceArchive": "libmysofa-1.2.1.tar.gz",
+      "sourceSha256": "94cb02e488de4dc0860c8d23b29d93d290bb0a004d4aa17e1642985bba158ee9",
+      "notices": [
+        {
+          "sourceMember": "libmysofa-1.2.1/LICENSE",
+          "path": "mysofa/libmysofa-1.2.1/LICENSE",
+          "bytes": 1453,
+          "sha256": "9c8713ccc5d6d93d20c7a1cfcb876e64baf551bfbe67faa4e60d39cda9ffd023"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.CIPIC_subject_003_hrir_final",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.CIPIC_subject_003_hrir_final",
+          "bytes": 2259,
+          "sha256": "78149b9a8138d9fdcbd77b66e554711a1a2a5451d16b432b5eaec6d642697d85"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.D1_48K_24bit_0.3s_FIR_SOFA",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.D1_48K_24bit_0.3s_FIR_SOFA",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.FHK_HRIR_L2354",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.FHK_HRIR_L2354",
+          "bytes": 19587,
+          "sha256": "47c326d67143bb68c008a900c954c8a6779bdafa25d350d12c57d532c3a32200"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.H20_44K_16bit_256tap_FIR_SOFA",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.H20_44K_16bit_256tap_FIR_SOFA",
+          "bytes": 1113,
+          "sha256": "44ba2315604e3fbe0f11c0d9cbb6114159ba74c3f31b5a72b2493476b3f9b44a"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.LISTEN_1002_IRC_1002_C_HRIR",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.LISTEN_1002_IRC_1002_C_HRIR",
+          "bytes": 619,
+          "sha256": "29661b4a131466c1d5cdb786db0e531244c14850af0d3fb80fb8c801bdbe7145"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.MIT_KEMAR_pinnae",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.MIT_KEMAR_pinnae",
+          "bytes": 1414,
+          "sha256": "548b43283652608c38ed82accb918fae135885016de78c969cbd8cd7215d15ec"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.TU-Berlin_QU_KEMAR_anechoic",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.TU-Berlin_QU_KEMAR_anechoic",
+          "bytes": 19431,
+          "sha256": "84be1cf7d2cf8ea106fcf1f24e360cd922a05f80c6172e3f70608b0eaed50460"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/tests/LICENSE.pulse",
+          "path": "mysofa/libmysofa-1.2.1/tests/LICENSE.pulse",
+          "bytes": 12851,
+          "sha256": "fabb8e1099a0812e0be1951a94cdda0def9b3e60f1aa5b649a0dbe01fc637fc0"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/windows/third-party/sys/LICENSE",
+          "path": "mysofa/libmysofa-1.2.1/windows/third-party/sys/LICENSE",
+          "bytes": 7991,
+          "sha256": "818fd40b46dfbe838f4dc0957bfe44afc4b35d450237723b82d793a0403f3c77"
+        },
+        {
+          "sourceMember": "libmysofa-1.2.1/windows/third-party/zlib-1.2.11/LICENSE",
+          "path": "mysofa/libmysofa-1.2.1/windows/third-party/zlib-1.2.11/LICENSE",
+          "bytes": 66,
+          "sha256": "05b547d6a157efb1659997b605b63cd36f2e3f30d167b5a6826ecdde052d154f"
+        }
+      ]
+    },
+    {
+      "package": "nettle",
+      "sourceArchive": "nettle-3.10.2.tar.gz",
+      "sourceSha256": "fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5",
+      "notices": [
+        {
+          "sourceMember": "nettle-3.10.2/COPYING.LESSERv3",
+          "path": "nettle/nettle-3.10.2/COPYING.LESSERv3",
+          "bytes": 7639,
+          "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+        },
+        {
+          "sourceMember": "nettle-3.10.2/AUTHORS",
+          "path": "nettle/nettle-3.10.2/AUTHORS",
+          "bytes": 4267,
+          "sha256": "6fd91e60caa0c33dd22888b710fcfa36532bbbef00d85c78de385dcd97f7b9ee"
+        }
+      ]
+    },
+    {
+      "package": "nfs",
+      "sourceArchive": "libnfs-6.0.2.tar.gz",
+      "sourceSha256": "4e5459cc3e0242447879004e9ad28286d4d27daa42cbdcde423248fad911e747",
+      "notices": [
+        {
+          "sourceMember": "libnfs-libnfs-6.0.2/COPYING",
+          "path": "nfs/libnfs-libnfs-6.0.2/COPYING",
+          "bytes": 1601,
+          "sha256": "edd960c0142b8ada98b43b6396b78f4e557b0bc70ac601a51e397ad04070e2c5"
+        },
+        {
+          "sourceMember": "libnfs-libnfs-6.0.2/LICENCE-BSD.txt",
+          "path": "nfs/libnfs-libnfs-6.0.2/LICENCE-BSD.txt",
+          "bytes": 1457,
+          "sha256": "d9406ced95457941032aa11d04623b8ab71f2827a3395ebef137aec475be35b1"
+        },
+        {
+          "sourceMember": "libnfs-libnfs-6.0.2/LICENCE-GPL-3.txt",
+          "path": "nfs/libnfs-libnfs-6.0.2/LICENCE-GPL-3.txt",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "libnfs-libnfs-6.0.2/LICENCE-LGPL-2.1.txt",
+          "path": "nfs/libnfs-libnfs-6.0.2/LICENCE-LGPL-2.1.txt",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        }
+      ]
+    },
+    {
+      "package": "ogg",
+      "sourceArchive": "libogg-1.3.6.tar.xz",
+      "sourceSha256": "5c8253428e181840cd20d41f3ca16557a9cc04bad4a3d04cce84808677fa1061",
+      "notices": [
+        {
+          "sourceMember": "libogg-1.3.6/COPYING",
+          "path": "ogg/libogg-1.3.6/COPYING",
+          "bytes": 1466,
+          "sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814"
+        },
+        {
+          "sourceMember": "libogg-1.3.6/AUTHORS",
+          "path": "ogg/libogg-1.3.6/AUTHORS",
+          "bytes": 198,
+          "sha256": "6fcb33d0cdd60b5054e7df820916388b590427514288c2bab01c626bb8ae9506"
+        }
+      ]
+    },
+    {
+      "package": "openjpeg",
+      "sourceArchive": "openjpeg-2.5.4.tar.gz",
+      "sourceSha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a",
+      "notices": [
+        {
+          "sourceMember": "openjpeg-2.5.4/AUTHORS.md",
+          "path": "openjpeg/openjpeg-2.5.4/AUTHORS.md",
+          "bytes": 712,
+          "sha256": "cf22e984f9fbb9be7550e9a94120595ba8c4a7de0d63f47d3725f4b2e28a4387"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/LICENSE",
+          "path": "openjpeg/openjpeg-2.5.4/LICENSE",
+          "bytes": 2112,
+          "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/THANKS.md",
+          "path": "openjpeg/openjpeg-2.5.4/THANKS.md",
+          "bytes": 818,
+          "sha256": "9017703395bb7fe594020db23607143c30838cab55bfdab6c5fd3b7ba90f2369"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/src/bin/wx/OPJViewer/source/license.txt",
+          "path": "openjpeg/openjpeg-2.5.4/src/bin/wx/OPJViewer/source/license.txt",
+          "bytes": 1683,
+          "sha256": "8081c33f6953950dcf424aa844714658b73ada0fcaea16e4487f5fa07ef0960d"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/thirdparty/astyle/LICENSE.md",
+          "path": "openjpeg/openjpeg-2.5.4/thirdparty/astyle/LICENSE.md",
+          "bytes": 1094,
+          "sha256": "2e8480e753b7a1d100c80920f4250b1bc9f93a18c6a5953c42b11445218cd0fb"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/thirdparty/liblcms2/COPYING",
+          "path": "openjpeg/openjpeg-2.5.4/thirdparty/liblcms2/COPYING",
+          "bytes": 1078,
+          "sha256": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a"
+        },
+        {
+          "sourceMember": "openjpeg-2.5.4/thirdparty/libpng/LICENSE",
+          "path": "openjpeg/openjpeg-2.5.4/thirdparty/libpng/LICENSE",
+          "bytes": 5345,
+          "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+        }
+      ]
+    },
+    {
+      "package": "opus",
+      "sourceArchive": "opus-1.6.1.tar.gz",
+      "sourceSha256": "6ffcb593207be92584df15b32466ed64bbec99109f007c82205f0194572411a1",
+      "notices": [
+        {
+          "sourceMember": "opus-1.6.1/AUTHORS",
+          "path": "opus/opus-1.6.1/AUTHORS",
+          "bytes": 239,
+          "sha256": "f9fd849e652219ce98e008303370b352d37663d0ffb27b8dc514ad93c9c7438b"
+        },
+        {
+          "sourceMember": "opus-1.6.1/COPYING",
+          "path": "opus/opus-1.6.1/COPYING",
+          "bytes": 1945,
+          "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551"
+        }
+      ]
+    },
+    {
+      "package": "png",
+      "sourceArchive": "libpng-1.6.58.tar.xz",
+      "sourceSha256": "28eb403f51f0f7405249132cecfe82ea5c0ef97f1b32c5a65828814ae0d34775",
+      "notices": [
+        {
+          "sourceMember": "libpng-1.6.58/AUTHORS",
+          "path": "png/libpng-1.6.58/AUTHORS",
+          "bytes": 1773,
+          "sha256": "0c777e9f2a67bd4058ab91050eb7a56106c92ed038ba8fe5f54c83344f2d93ca"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/LICENSE",
+          "path": "png/libpng-1.6.58/LICENSE",
+          "bytes": 5345,
+          "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/ci/LICENSE_MIT.txt",
+          "path": "png/libpng-1.6.58/ci/LICENSE_MIT.txt",
+          "bytes": 1036,
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/contrib/gregbook/COPYING",
+          "path": "png/libpng-1.6.58/contrib/gregbook/COPYING",
+          "bytes": 18097,
+          "sha256": "d6cb0e9e560f51085556949a84af12b79a00f10ab8b66c752537faf7cd665572"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/contrib/gregbook/LICENSE",
+          "path": "png/libpng-1.6.58/contrib/gregbook/LICENSE",
+          "bytes": 2373,
+          "sha256": "b6a03c1803eb58ffb1f1278d5c7d4096c4c116e66dce8a7553e8c77d163c3438"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/contrib/pngexif/LICENSE_MIT.txt",
+          "path": "png/libpng-1.6.58/contrib/pngexif/LICENSE_MIT.txt",
+          "bytes": 1036,
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/contrib/pngminus/LICENSE.txt",
+          "path": "png/libpng-1.6.58/contrib/pngminus/LICENSE.txt",
+          "bytes": 1164,
+          "sha256": "1806f1f10d393e9e377b3a8d1b968452b54f1a90378f14eeef45426946ace330"
+        },
+        {
+          "sourceMember": "libpng-1.6.58/scripts/cmake/AUTHORS.md",
+          "path": "png/libpng-1.6.58/scripts/cmake/AUTHORS.md",
+          "bytes": 862,
+          "sha256": "50633b976f0133862c921aa67d56de2c0b42eb344c8ca3853686efb092a447db"
+        }
+      ]
+    },
+    {
+      "package": "projectM",
+      "sourceArchive": "projectM-2.0.1-Source.tar.gz",
+      "sourceSha256": "c305182dfc8b7f87b82a146af6cf50a982e7c9c647877a0559dfef4b11dacb93",
+      "notices": [
+        {
+          "sourceMember": "projectM-2.0.1-Source/omptl/License.txt",
+          "path": "projectM/projectM-2.0.1-Source/omptl/License.txt",
+          "bytes": 26432,
+          "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+        },
+        {
+          "sourceMember": "projectM-2.0.1-Source/COPYING",
+          "path": "projectM/projectM-2.0.1-Source/COPYING",
+          "bytes": 870,
+          "sha256": "ffc0dee05d3fd4ecd0defe7fc6684c5d5d64f2125c7329208706128997bbbcf9"
+        }
+      ]
+    },
+    {
+      "package": "protobuf",
+      "sourceArchive": "protobuf-3.4.1-cpp.tar.gz",
+      "sourceSha256": "2bb34b4a8211a30d12ef29fd8660995023d119c99fbab2e5fe46f17528c9cc78",
+      "notices": [
+        {
+          "sourceMember": "protobuf-3.4.1/CONTRIBUTORS.txt",
+          "path": "protobuf/protobuf-3.4.1/CONTRIBUTORS.txt",
+          "bytes": 3924,
+          "sha256": "b2694f3cf34e78c89d96a0bc24673da59c0038f5df5cdb026a320fb574db28d7"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/LICENSE",
+          "path": "protobuf/protobuf-3.4.1/LICENSE",
+          "bytes": 2133,
+          "sha256": "af67c58de2e18677a0b8cb5fffbe2232aabb8eb2930e8cd684769cef3d74a262"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/gmock/scripts/generator/LICENSE",
+          "path": "protobuf/protobuf-3.4.1/gmock/scripts/generator/LICENSE",
+          "bytes": 11386,
+          "sha256": "5e0df8c845c742e76f2f64d2d9ce1b7e74a2422fddbc577ae6a56319083de0bf"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/gmock/CONTRIBUTORS",
+          "path": "protobuf/protobuf-3.4.1/gmock/CONTRIBUTORS",
+          "bytes": 1369,
+          "sha256": "84cdbb13c8f4744601ed72bfee76384c51820bd18e72aa2f3ae057d9aa96f1a2"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/gmock/LICENSE",
+          "path": "protobuf/protobuf-3.4.1/gmock/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/gmock/gtest/CONTRIBUTORS",
+          "path": "protobuf/protobuf-3.4.1/gmock/gtest/CONTRIBUTORS",
+          "bytes": 1358,
+          "sha256": "4d911cd5e6d71f3f4bbcb2788b2f916df4b0ce1e088752a159457a1d936ae0ce"
+        },
+        {
+          "sourceMember": "protobuf-3.4.1/gmock/gtest/LICENSE",
+          "path": "protobuf/protobuf-3.4.1/gmock/gtest/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        }
+      ]
+    },
+    {
+      "package": "qt",
+      "sourceArchive": "qt-5.6.3.tar.xz",
+      "sourceSha256": "fef48529a6fc2617a30d75d952cb327c6be341fd104154993922184b3b3b4da1",
+      "notices": [
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LGPL_EXCEPTION.txt",
+          "path": "qt/qtbase-opensource-src-5.6.3/LGPL_EXCEPTION.txt",
+          "bytes": 1196,
+          "sha256": "438c1f9a2b256e47dac33249f2ad6d4a9df643f1ec5312216d528a2f7ad82084"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/libjpeg/README",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/libjpeg/README",
+          "bytes": 15923,
+          "sha256": "a746ea327c2edb33a5a1800dc968c41a40af4ec0daee4810a0622e9c9373d1b7"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/AUTHORS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/AUTHORS",
+          "bytes": 127,
+          "sha256": "5ffa4618dce341e89fad2fb9ed5e990d60212135ded8cb62a6c9b55206d61114"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/THANKS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/THANKS",
+          "bytes": 106,
+          "sha256": "8a63d9306ff46ac3729d6b1396ef12901c81176008af4b839f09dae9acf2cd36"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/COPYING",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz-ng/COPYING",
+          "bytes": 1690,
+          "sha256": "2a886915de4f296cdae5ed67064f86dba01d0c55286d86e8487f2a5caaf40216"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/gradle/LICENSE-GRADLEW.txt",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/gradle/LICENSE-GRADLEW.txt",
+          "bytes": 51625,
+          "sha256": "034f6dc665180948cc53319d6e477a5043b529df992c89d1dcb44f010593fbef"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/libpng/LICENSE",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/libpng/LICENSE",
+          "bytes": 4197,
+          "sha256": "b230bd305a60ead1c2bd175f94ef1a1b449e54637db5df311ef749d3996dd2b0"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz/AUTHORS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz/AUTHORS",
+          "bytes": 82,
+          "sha256": "a78bc97c61f5ee2a999136ea6b210e962ea235a7359d7603391952e702c38556"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz/COPYING",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/harfbuzz/COPYING",
+          "bytes": 1241,
+          "sha256": "ed7c20569a8f7daa06d2032b21bf240c5b6d8a0acb572d775bc6e78e61811191"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/angle/AUTHORS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/angle/AUTHORS",
+          "bytes": 869,
+          "sha256": "ebc19d32c3fe852f41970424882bd5c859b922773d7756711a5ac1dca9f30bcd"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/angle/CONTRIBUTORS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/angle/CONTRIBUTORS",
+          "bytes": 1644,
+          "sha256": "db5fff86a62a729aa4b08c9128a818f9858529dbdea1e2f82a2d3f26b08a9d65"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/angle/src/third_party/murmurhash/LICENSE",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/angle/src/third_party/murmurhash/LICENSE",
+          "bytes": 143,
+          "sha256": "d8a0f4dab052ff6f56e9d6fa68efb66de8ff3956a805110930f8ee297376047f"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/angle/src/third_party/compiler/LICENSE",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/angle/src/third_party/compiler/LICENSE",
+          "bytes": 1262,
+          "sha256": "a08ba10adec47027ef8078848729837b1c5a42f140718d7afd65c23f1eeec392"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/angle/LICENSE",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/angle/LICENSE",
+          "bytes": 1654,
+          "sha256": "02b46911286ee64801dbc5652f92d87231124d2aaf1edadc19ba76e2fbd7eb80"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/xkbcommon/COPYING",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/xkbcommon/COPYING",
+          "bytes": 8750,
+          "sha256": "55978aafd1d6b5ded2502aacca6be71357d1244009889ff7b8392f5cfc2caaba"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/pcre/AUTHORS",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/pcre/AUTHORS",
+          "bytes": 851,
+          "sha256": "df04da5917747ad48143e0f3bce45ad3a5bb8fc5ef408b6ef47b5d0a93ed0f5a"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/pcre/COPYING",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/pcre/COPYING",
+          "bytes": 95,
+          "sha256": "17abe1dbb92b21ab173cf9757dd57b0b15cd8d863b2ccdef635fdbef03077fb0"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/pcre/LICENCE",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/pcre/LICENCE",
+          "bytes": 3182,
+          "sha256": "3441595e1a5f7970adb99286b68962cc20252aa0fb8b5d7d775f97760083d563"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/FTL.TXT",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/FTL.TXT",
+          "bytes": 6741,
+          "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/LICENSE.TXT",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/LICENSE.TXT",
+          "bytes": 1611,
+          "sha256": "f6333b3a9106f10190e96d9f994f934deb7a5632851a1aaf846b94651a80f4da"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/GPLv2.TXT",
+          "path": "qt/qtbase-opensource-src-5.6.3/src/3rdparty/freetype/docs/GPLv2.TXT",
+          "bytes": 17994,
+          "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LICENSE.PREVIEW.COMMERCIAL",
+          "path": "qt/qtbase-opensource-src-5.6.3/LICENSE.PREVIEW.COMMERCIAL",
+          "bytes": 32153,
+          "sha256": "3a7e6db476ded8a27322bb2a02994bed8dbaaac17c9f8694f309531c7187934a"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LICENSE.LGPLv3",
+          "path": "qt/qtbase-opensource-src-5.6.3/LICENSE.LGPLv3",
+          "bytes": 8174,
+          "sha256": "68afaf3392f8c04218fbf29db43cc0b18bf651c1db086556aa584046de9f3e35"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LICENSE.LGPLv21",
+          "path": "qt/qtbase-opensource-src-5.6.3/LICENSE.LGPLv21",
+          "bytes": 26828,
+          "sha256": "66f6bb53f6d985a4d651bf1ecfe8bbcbe32b0f744708d588f047580ee85d8ec8"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LICENSE.FDL",
+          "path": "qt/qtbase-opensource-src-5.6.3/LICENSE.FDL",
+          "bytes": 22961,
+          "sha256": "ed8742a95cb9db653a09b050e27ccff5e67ba69c14aa2c3137f2a4e1892f6c0d"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/LICENSE.GPLv3",
+          "path": "qt/qtbase-opensource-src-5.6.3/LICENSE.GPLv3",
+          "bytes": 35641,
+          "sha256": "245248009fd0af1725d183248380e476c1283383909358a13686606352bf2a17"
+        },
+        {
+          "sourceMember": "qtbase-opensource-src-5.6.3/mkspecs/common/bsd/bsd.conf",
+          "path": "qt/qtbase-opensource-src-5.6.3/mkspecs/common/bsd/bsd.conf",
+          "bytes": 684,
+          "sha256": "69a4ae7f4d7bfe3bd8d89420110f29a7c34d3d3ca8d2a49b779f4c80ec5f4a04"
+        }
+      ]
+    },
+    {
+      "package": "qtsvg",
+      "sourceArchive": "qtsvg-5.6.3.tar.xz",
+      "sourceSha256": "100f183517b46554079beabd8d2cabe3070a74dd0a2e64b6a304eac71cfadcec",
+      "notices": [
+        {
+          "sourceMember": "qtsvg-opensource-src-5.6.3/LGPL_EXCEPTION.txt",
+          "path": "qtsvg/qtsvg-opensource-src-5.6.3/LGPL_EXCEPTION.txt",
+          "bytes": 1196,
+          "sha256": "438c1f9a2b256e47dac33249f2ad6d4a9df643f1ec5312216d528a2f7ad82084"
+        },
+        {
+          "sourceMember": "qtsvg-opensource-src-5.6.3/LICENSE.LGPLv3",
+          "path": "qtsvg/qtsvg-opensource-src-5.6.3/LICENSE.LGPLv3",
+          "bytes": 8174,
+          "sha256": "5ceb37d1c7c1d92878b82af3c0fd5558087f3d5a08a3a4d43850bad4ad265a52"
+        },
+        {
+          "sourceMember": "qtsvg-opensource-src-5.6.3/LICENSE.LGPLv21",
+          "path": "qtsvg/qtsvg-opensource-src-5.6.3/LICENSE.LGPLv21",
+          "bytes": 26828,
+          "sha256": "1996a36160b2158c2be264d2ddfa6148ebe0f1ececff55aca8d754a1ddcc7bb8"
+        },
+        {
+          "sourceMember": "qtsvg-opensource-src-5.6.3/LICENSE.FDL",
+          "path": "qtsvg/qtsvg-opensource-src-5.6.3/LICENSE.FDL",
+          "bytes": 22961,
+          "sha256": "ed8742a95cb9db653a09b050e27ccff5e67ba69c14aa2c3137f2a4e1892f6c0d"
+        },
+        {
+          "sourceMember": "qtsvg-opensource-src-5.6.3/LICENSE.GPLv3",
+          "path": "qtsvg/qtsvg-opensource-src-5.6.3/LICENSE.GPLv3",
+          "bytes": 35641,
+          "sha256": "245248009fd0af1725d183248380e476c1283383909358a13686606352bf2a17"
+        }
+      ]
+    },
+    {
+      "package": "regex",
+      "sourceArchive": "regex-0.13.tar.gz",
+      "sourceSha256": "dcdf884e4b04efae979fd847716771c69fff25e852eea35d00668ffd4bf78d79",
+      "notices": [
+        {
+          "sourceMember": "regex-0.13/AUTHORS",
+          "path": "regex/regex-0.13/AUTHORS",
+          "bytes": 423,
+          "sha256": "b6e624096df8700d62306e2a08c2ec7d143119a7ec710b88a54490b9b153a5f3"
+        },
+        {
+          "sourceMember": "regex-0.13/COPYING",
+          "path": "regex/regex-0.13/COPYING",
+          "bytes": 17982,
+          "sha256": "91df39d1816bfb17a4dda2d3d2c83b1f6f2d38d53e53e41e8f97ad5ac46a0cad"
+        },
+        {
+          "sourceMember": "regex-0.13/COPYING.LIB",
+          "path": "regex/regex-0.13/COPYING.LIB",
+          "bytes": 26532,
+          "sha256": "5bbcbb737e60fe9deba08ecbd00920cfcc3403ba2e534c64fdeea49d6bb87509"
+        }
+      ]
+    },
+    {
+      "package": "samplerate",
+      "sourceArchive": "libsamplerate-0.1.9.tar.gz",
+      "sourceSha256": "0a7eb168e2f21353fb6d84da152e4512126f7dc48ccb0be80578c565413444c1",
+      "notices": [
+        {
+          "sourceMember": "libsamplerate-0.1.9/AUTHORS",
+          "path": "samplerate/libsamplerate-0.1.9/AUTHORS",
+          "bytes": 42,
+          "sha256": "67aadf492ea68854a24103e752c6dcbcca99c8af89e79ee7f459345d93e48103"
+        },
+        {
+          "sourceMember": "libsamplerate-0.1.9/COPYING",
+          "path": "samplerate/libsamplerate-0.1.9/COPYING",
+          "bytes": 1334,
+          "sha256": "2c1f76ce2effdddb425018405d5690c0b1ab4e6976e35296b0a6db65c5e1a55d"
+        }
+      ]
+    },
+    {
+      "package": "sdl",
+      "sourceArchive": "SDL3-3.4.10.tar.gz",
+      "sourceSha256": "12b34280415ec8418c864408b93d008a20a6530687ee613d60bfbd20411f2785",
+      "notices": [
+        {
+          "sourceMember": "SDL3-3.4.10/CREDITS.md",
+          "path": "sdl/SDL3-3.4.10/CREDITS.md",
+          "bytes": 2169,
+          "sha256": "c5248b999637cb272b9832fe004ee55c43c52c0d5ce7119a83ffd4f8bfb18994"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/LICENSE.txt",
+          "path": "sdl/SDL3-3.4.10/LICENSE.txt",
+          "bytes": 884,
+          "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/hidapi/AUTHORS.txt",
+          "path": "sdl/SDL3-3.4.10/src/hidapi/AUTHORS.txt",
+          "bytes": 425,
+          "sha256": "38102075d829116ee23d7a1fe0cb53f0c6932a9275da0ca1a3885b44db1963b4"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/hidapi/LICENSE-bsd.txt",
+          "path": "sdl/SDL3-3.4.10/src/hidapi/LICENSE-bsd.txt",
+          "bytes": 1534,
+          "sha256": "30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/hidapi/LICENSE-gpl3.txt",
+          "path": "sdl/SDL3-3.4.10/src/hidapi/LICENSE-gpl3.txt",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/hidapi/LICENSE-orig.txt",
+          "path": "sdl/SDL3-3.4.10/src/hidapi/LICENSE-orig.txt",
+          "bytes": 264,
+          "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/hidapi/LICENSE.txt",
+          "path": "sdl/SDL3-3.4.10/src/hidapi/LICENSE.txt",
+          "bytes": 530,
+          "sha256": "7d3b087c34f35d4d538e3bcddd1ff8f66e92f9ef336881999482800ddf840913"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/src/video/yuv2rgb/LICENSE",
+          "path": "sdl/SDL3-3.4.10/src/video/yuv2rgb/LICENSE",
+          "bytes": 1480,
+          "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/test/COPYING",
+          "path": "sdl/SDL3-3.4.10/test/COPYING",
+          "bytes": 210,
+          "sha256": "d5a549e4a7b88cb696d0db15b21830061131ed361257ab399a33ca08ce0b33d5"
+        },
+        {
+          "sourceMember": "SDL3-3.4.10/test/LICENSE.txt",
+          "path": "sdl/SDL3-3.4.10/test/LICENSE.txt",
+          "bytes": 1356,
+          "sha256": "129fbd972915047e54d88f6f1884a13bf6d79c18eeb40646193d7241c9270ae5"
+        }
+      ]
+    },
+    {
+      "package": "shout",
+      "sourceArchive": "libshout-2.4.6.tar.gz",
+      "sourceSha256": "39cbd4f0efdfddc9755d88217e47f8f2d7108fa767f9d58a2ba26a16d8f7c910",
+      "notices": [
+        {
+          "sourceMember": "libshout-2.4.6/COPYING",
+          "path": "shout/libshout-2.4.6/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        },
+        {
+          "sourceMember": "libshout-2.4.6/src/common/avl/COPYING",
+          "path": "shout/libshout-2.4.6/src/common/avl/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        },
+        {
+          "sourceMember": "libshout-2.4.6/src/common/net/COPYING",
+          "path": "shout/libshout-2.4.6/src/common/net/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        },
+        {
+          "sourceMember": "libshout-2.4.6/src/common/timing/COPYING",
+          "path": "shout/libshout-2.4.6/src/common/timing/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        },
+        {
+          "sourceMember": "libshout-2.4.6/src/common/httpp/COPYING",
+          "path": "shout/libshout-2.4.6/src/common/httpp/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        },
+        {
+          "sourceMember": "libshout-2.4.6/src/common/thread/COPYING",
+          "path": "shout/libshout-2.4.6/src/common/thread/COPYING",
+          "bytes": 25275,
+          "sha256": "7a4436f9ec37603356791c87de3bc444989befd2682d29efb3d97604e04c1852"
+        }
+      ]
+    },
+    {
+      "package": "sidplay2",
+      "sourceArchive": "sidplay-libs-2.1.1.tar.gz",
+      "sourceSha256": "e9a24ada48215a46d2c232a70c5601bc9505e997f120e8f2ba3713e09e28d1f9",
+      "notices": [
+        {
+          "sourceMember": "sidplay-libs-2.1.1/libsidplay/AUTHORS",
+          "path": "sidplay2/sidplay-libs-2.1.1/libsidplay/AUTHORS",
+          "bytes": 1600,
+          "sha256": "fdc79a69fcd8367dd2442506a30f5de512871b745999ec0341e826766ce490c3"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/libsidplay/COPYING",
+          "path": "sidplay2/sidplay-libs-2.1.1/libsidplay/COPYING",
+          "bytes": 17989,
+          "sha256": "b8a2f73f743dc1a51aff23f1aacbca4b868564db52496fa3c0caba755bfd1eaf"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/libsidutils/AUTHORS",
+          "path": "sidplay2/sidplay-libs-2.1.1/libsidutils/AUTHORS",
+          "bytes": 117,
+          "sha256": "c51781a713779062f7abb87ac36b2660166a75333d11e6d801a90d50099d4981"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/libsidutils/COPYING",
+          "path": "sidplay2/sidplay-libs-2.1.1/libsidutils/COPYING",
+          "bytes": 17984,
+          "sha256": "ad750a6cefa27c986f33df8ad8ce4c8b53814e943724aa2ce4e0bf8aa2dfa6c3"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/resid/AUTHORS",
+          "path": "sidplay2/sidplay-libs-2.1.1/resid/AUTHORS",
+          "bytes": 79,
+          "sha256": "5fc55e6f8a3aee313bfa89eaac92675866cc62659428ed1c458c031c712ebfaf"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/resid/COPYING",
+          "path": "sidplay2/sidplay-libs-2.1.1/resid/COPYING",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/resid/THANKS",
+          "path": "sidplay2/sidplay-libs-2.1.1/resid/THANKS",
+          "bytes": 4342,
+          "sha256": "0bccd3eb92b1a69eb6897557d13614448d8afc807a4ea0313aaa331a4ed47273"
+        },
+        {
+          "sourceMember": "sidplay-libs-2.1.1/builders/hardsid-builder/COPYING",
+          "path": "sidplay2/sidplay-libs-2.1.1/builders/hardsid-builder/COPYING",
+          "bytes": 17989,
+          "sha256": "b8a2f73f743dc1a51aff23f1aacbca4b868564db52496fa3c0caba755bfd1eaf"
+        }
+      ]
+    },
+    {
+      "package": "spatialaudio",
+      "sourceArchive": "spatialaudio-0.3.0.tar.bz2",
+      "sourceSha256": "284c1dbd8efd46c03be84ac7070bc87cae81b7125352b143a70be3e2b96988e3",
+      "notices": [
+        {
+          "sourceMember": "spatialaudio-0.3.0/LICENSE",
+          "path": "spatialaudio/spatialaudio-0.3.0/LICENSE",
+          "bytes": 27436,
+          "sha256": "63176449375086d82d675541c56bce8dd1ed7b2e9cff41c9fb8b8b388f2869b6"
+        }
+      ]
+    },
+    {
+      "package": "speex",
+      "sourceArchive": "speex-1.2.1.tar.gz",
+      "sourceSha256": "4b44d4f2b38a370a2d98a78329fefc56a0cf93d1c1be70029217baae6628feea",
+      "notices": [
+        {
+          "sourceMember": "speex-1.2.1/AUTHORS",
+          "path": "speex/speex-1.2.1/AUTHORS",
+          "bytes": 502,
+          "sha256": "6e5a9d92c5f9ccd28fe0b15ad59443fbf435bfc6ab2221f532006d3717ddf642"
+        },
+        {
+          "sourceMember": "speex-1.2.1/COPYING",
+          "path": "speex/speex-1.2.1/COPYING",
+          "bytes": 1773,
+          "sha256": "2654a4264b2bfe298dedc508748d140111840c315cc8eb646a3a68c13fa75b01"
+        }
+      ]
+    },
+    {
+      "package": "speexdsp",
+      "sourceArchive": "speexdsp-1.2.1.tar.gz",
+      "sourceSha256": "8c777343e4a6399569c72abc38a95b24db56882c83dbdb6c6424a5f4aeb54d3d",
+      "notices": [
+        {
+          "sourceMember": "speexdsp-1.2.1/AUTHORS",
+          "path": "speexdsp/speexdsp-1.2.1/AUTHORS",
+          "bytes": 502,
+          "sha256": "6e5a9d92c5f9ccd28fe0b15ad59443fbf435bfc6ab2221f532006d3717ddf642"
+        },
+        {
+          "sourceMember": "speexdsp-1.2.1/COPYING",
+          "path": "speexdsp/speexdsp-1.2.1/COPYING",
+          "bytes": 1773,
+          "sha256": "2654a4264b2bfe298dedc508748d140111840c315cc8eb646a3a68c13fa75b01"
+        }
+      ]
+    },
+    {
+      "package": "srt",
+      "sourceArchive": "srt-1.5.6.tar.gz",
+      "sourceSha256": "2c4980c2c4cfd142d21b829d939dc51db9c6628af5967fff62fd7290769569c7",
+      "notices": [
+        {
+          "sourceMember": "srt-1.5.6/LICENSE",
+          "path": "srt/srt-1.5.6/LICENSE",
+          "bytes": 16726,
+          "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+        }
+      ]
+    },
+    {
+      "package": "ssh2",
+      "sourceArchive": "libssh2-1.11.1.tar.xz",
+      "sourceSha256": "9954cb54c4f548198a7cbebad248bdc87dd64bd26185708a294b2b50771e3769",
+      "notices": [
+        {
+          "sourceMember": "libssh2-1.11.1/COPYING",
+          "path": "ssh2/libssh2-1.11.1/COPYING",
+          "bytes": 1959,
+          "sha256": "f7f9633cf9ff2f1333f3d7ce46973a8716a4d2a2815ad56f30d437d5fea7bafe"
+        },
+        {
+          "sourceMember": "libssh2-1.11.1/docs/AUTHORS",
+          "path": "ssh2/libssh2-1.11.1/docs/AUTHORS",
+          "bytes": 1219,
+          "sha256": "e161024bacda626cc77bc905db2fcfb0870e83f53b98f9b8b736f22cb48ab862"
+        }
+      ]
+    },
+    {
+      "package": "taglib",
+      "sourceArchive": "taglib-1.13.1.tar.gz",
+      "sourceSha256": "c8da2b10f1bfec2cd7dbfcd33f4a2338db0765d851a50583d410bacf055cfd0b",
+      "notices": [
+        {
+          "sourceMember": "taglib-1.13.1/AUTHORS",
+          "path": "taglib/taglib-1.13.1/AUTHORS",
+          "bytes": 889,
+          "sha256": "047780f6bded3712fc24edc77b9187bfa49ea3826ed090933cb6342458eace85"
+        },
+        {
+          "sourceMember": "taglib-1.13.1/COPYING.LGPL",
+          "path": "taglib/taglib-1.13.1/COPYING.LGPL",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "sourceMember": "taglib-1.13.1/COPYING.MPL",
+          "path": "taglib/taglib-1.13.1/COPYING.MPL",
+          "bytes": 25755,
+          "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f"
+        }
+      ]
+    },
+    {
+      "package": "theora",
+      "sourceArchive": "libtheora-1.1.1.tar.xz",
+      "sourceSha256": "f36da409947aa2b3dcc6af0a8c2e3144bc19db2ed547d64e9171c59c66561c61",
+      "notices": [
+        {
+          "sourceMember": "libtheora-1.1.1/LICENSE",
+          "path": "theora/libtheora-1.1.1/LICENSE",
+          "bytes": 964,
+          "sha256": "654a0238f789f4435c4818f50005b141d013c5a09a31d861efc1d0d67ba975a4"
+        },
+        {
+          "sourceMember": "libtheora-1.1.1/AUTHORS",
+          "path": "theora/libtheora-1.1.1/AUTHORS",
+          "bytes": 702,
+          "sha256": "76ce13651678372266b233e026810a368e2cf0a0d255d19805d268d80ac1dbcd"
+        },
+        {
+          "sourceMember": "libtheora-1.1.1/COPYING",
+          "path": "theora/libtheora-1.1.1/COPYING",
+          "bytes": 1470,
+          "sha256": "8417fad7da775735564e209484a2e011e0fa201e94f01fdbee6e4977e478e6fc"
+        }
+      ]
+    },
+    {
+      "package": "twolame",
+      "sourceArchive": "twolame-0.4.0.tar.gz",
+      "sourceSha256": "cc35424f6019a88c6f52570b63e1baf50f62963a3eac52a03a800bb070d7c87d",
+      "notices": [
+        {
+          "sourceMember": "twolame-0.4.0/AUTHORS",
+          "path": "twolame/twolame-0.4.0/AUTHORS",
+          "bytes": 1856,
+          "sha256": "89acea387ca97766b248e553ea68400898669b1637cfa31e4ceefff9efa3744d"
+        },
+        {
+          "sourceMember": "twolame-0.4.0/COPYING",
+          "path": "twolame/twolame-0.4.0/COPYING",
+          "bytes": 26428,
+          "sha256": "257a842724705950b07da76ce0e22ffa80ec77b3e9dfc6702522ac342409da0f"
+        }
+      ]
+    },
+    {
+      "package": "upnp",
+      "sourceArchive": "pupnp-release-1.14.31.tar.gz",
+      "sourceSha256": "ce1dd3da7268ad61a56041af0ee80a3d067e7fbd197e2a387ae53942f70068bd",
+      "notices": [
+        {
+          "sourceMember": "pupnp-release-1.14.31/COPYING",
+          "path": "upnp/pupnp-release-1.14.31/COPYING",
+          "bytes": 1477,
+          "sha256": "c8b99423cad48bb44e2cf52a496361404290865eac259a82da6d1e4331ececb3"
+        },
+        {
+          "sourceMember": "pupnp-release-1.14.31/THANKS",
+          "path": "upnp/pupnp-release-1.14.31/THANKS",
+          "bytes": 2858,
+          "sha256": "7755264d0d2d759de639005362444dbc387509e70843b608b22f722e7a13577b"
+        },
+        {
+          "sourceMember": "pupnp-release-1.14.31/site/LICENSE",
+          "path": "upnp/pupnp-release-1.14.31/site/LICENSE",
+          "bytes": 1499,
+          "sha256": "0375955c8a79d6e8fa0792d45d00fc4e7710d7ac95bcbd27f9225a83f5c946fd"
+        }
+      ]
+    },
+    {
+      "package": "utfcpp",
+      "sourceArchive": "utfcpp-3.2.5.tar.gz",
+      "sourceSha256": "14fd1b3c466814cb4c40771b7f207b61d2c7a0aa6a5e620ca05c00df27f25afd",
+      "notices": [
+        {
+          "sourceMember": "utfcpp-3.2.5/LICENSE",
+          "path": "utfcpp/utfcpp-3.2.5/LICENSE",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ]
+    },
+    {
+      "package": "vncclient",
+      "sourceArchive": "LibVNCServer-0.9.15.tar.gz",
+      "sourceSha256": "62352c7795e231dfce044beb96156065a05a05c974e5de9e023d688d8ff675d7",
+      "notices": [
+        {
+          "sourceMember": "libvncserver-LibVNCServer-0.9.15/AUTHORS",
+          "path": "vncclient/libvncserver-LibVNCServer-0.9.15/AUTHORS",
+          "bytes": 3169,
+          "sha256": "ccf0eacbb640adb3a0e770aa78157e12589fa230a9b3683aa71acac1e1285f48"
+        },
+        {
+          "sourceMember": "libvncserver-LibVNCServer-0.9.15/COPYING",
+          "path": "vncclient/libvncserver-LibVNCServer-0.9.15/COPYING",
+          "bytes": 18043,
+          "sha256": "4d23c8c814e5baf007d854f01d8502e77dc56a41144934e003fb32c4e052d20f"
+        }
+      ]
+    },
+    {
+      "package": "vorbis",
+      "sourceArchive": "libvorbis-1.3.7.tar.xz",
+      "sourceSha256": "b33cc4934322bcbf6efcbacf49e3ca01aadbea4114ec9589d1b1e9d20f72954b",
+      "notices": [
+        {
+          "sourceMember": "libvorbis-1.3.7/COPYING",
+          "path": "vorbis/libvorbis-1.3.7/COPYING",
+          "bytes": 1470,
+          "sha256": "ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a"
+        },
+        {
+          "sourceMember": "libvorbis-1.3.7/AUTHORS",
+          "path": "vorbis/libvorbis-1.3.7/AUTHORS",
+          "bytes": 65,
+          "sha256": "f5cab9f16035f770f50299f85cf2938c06dc3a9a30425961067788102ec896d3"
+        }
+      ]
+    },
+    {
+      "package": "vpl",
+      "sourceArchive": "libvpl-2.13.0.tar.gz",
+      "sourceSha256": "1c740e2b58f7853f56b618bdb7d4a7e5d37f8c1a9b30105a0b79ba80873e1cbd",
+      "notices": [
+        {
+          "sourceMember": "libvpl-2.13.0/LICENSE",
+          "path": "vpl/libvpl-2.13.0/LICENSE",
+          "bytes": 1074,
+          "sha256": "bf1cfac2e2792b6e1e995ce103d70796aecaf2ec7e4c5fe5474f7acec7b4a677"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api1x_core/legacy-decode/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api1x_core/legacy-decode/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api1x_core/legacy-encode/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api1x_core/legacy-encode/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api1x_core/legacy-vpp/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api1x_core/legacy-vpp/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-decode/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-decode/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-decvpp/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-decvpp/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-encode-jpeg/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-encode-jpeg/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-encode/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-encode/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-sharing-dx11/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-sharing-dx11/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-sharing-ocl/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-sharing-ocl/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-sharing-vaapi/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-sharing-vaapi/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-transcode/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-transcode/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/api2x/hello-vpp/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/api2x/hello-vpp/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/interop/vpl-infer/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/interop/vpl-infer/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/examples/tutorials/01_transition/License.txt",
+          "path": "vpl/libvpl-2.13.0/examples/tutorials/01_transition/License.txt",
+          "bytes": 1052,
+          "sha256": "2e35006c345787f7205bdaa86920c8fac86abd19b95d7b4c1ba5531853ea3938"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/libvpl/test/ext/googletest/CONTRIBUTORS",
+          "path": "vpl/libvpl-2.13.0/libvpl/test/ext/googletest/CONTRIBUTORS",
+          "bytes": 2261,
+          "sha256": "eca0c37e93d1d32201c1e38da0c470128efb9d977991535f8ff79127cb2c7a2a"
+        },
+        {
+          "sourceMember": "libvpl-2.13.0/libvpl/test/ext/googletest/LICENSE",
+          "path": "vpl/libvpl-2.13.0/libvpl/test/ext/googletest/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        }
+      ]
+    },
+    {
+      "package": "vpx",
+      "sourceArchive": "libvpx-1.16.0.tar.gz",
+      "sourceSha256": "7a479a3c66b9f5d5542a4c6a1b7d3768a983b1e5c14c60a9396edc9b649e015c",
+      "notices": [
+        {
+          "sourceMember": "libvpx-1.16.0/AUTHORS",
+          "path": "vpx/libvpx-1.16.0/AUTHORS",
+          "bytes": 9352,
+          "sha256": "fd2d1ac03d9d3c864bd98c2042de2d8f7fbd78b298c8d9c506076b6c6a9de889"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/LICENSE",
+          "path": "vpx/libvpx-1.16.0/LICENSE",
+          "bytes": 1537,
+          "sha256": "8267348d5af1262c11d1a08de2f5afc77457755f1ac658627dd9acf71011d615"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/PATENTS",
+          "path": "vpx/libvpx-1.16.0/PATENTS",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/googletest/src/CONTRIBUTORS",
+          "path": "vpx/libvpx-1.16.0/third_party/googletest/src/CONTRIBUTORS",
+          "bytes": 2261,
+          "sha256": "eca0c37e93d1d32201c1e38da0c470128efb9d977991535f8ff79127cb2c7a2a"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/googletest/src/LICENSE",
+          "path": "vpx/libvpx-1.16.0/third_party/googletest/src/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/libwebm/AUTHORS.TXT",
+          "path": "vpx/libvpx-1.16.0/third_party/libwebm/AUTHORS.TXT",
+          "bytes": 137,
+          "sha256": "3edb5f5496bfff3d6d4a62fa75fe996b814920d0d6e348c2e65c589e7ac5d177"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/libwebm/LICENSE.TXT",
+          "path": "vpx/libvpx-1.16.0/third_party/libwebm/LICENSE.TXT",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/libwebm/PATENTS.TXT",
+          "path": "vpx/libvpx-1.16.0/third_party/libwebm/PATENTS.TXT",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/libyuv/LICENSE",
+          "path": "vpx/libvpx-1.16.0/third_party/libyuv/LICENSE",
+          "bytes": 1506,
+          "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/nalloc/LICENSE",
+          "path": "vpx/libvpx-1.16.0/third_party/nalloc/LICENSE",
+          "bytes": 1069,
+          "sha256": "d7dd0396ec46975e1bf9093680068ef301bc0ed204603e623a6f7073ab922ab1"
+        },
+        {
+          "sourceMember": "libvpx-1.16.0/third_party/x86inc/LICENSE",
+          "path": "vpx/libvpx-1.16.0/third_party/x86inc/LICENSE",
+          "bytes": 936,
+          "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+        }
+      ]
+    },
+    {
+      "package": "x264",
+      "sourceArchive": "x264-e067ab0b530395f90b578f6d05ab0a225e2efdf9.tar.xz",
+      "sourceSha256": "d0f2d858849b4063d9b6880b57df0e8e665cb1059fd5e6ae2eaad93cca040c53",
+      "notices": [
+        {
+          "sourceMember": "x264-e067ab0b530395f90b578f6d05ab0a225e2efdf9/AUTHORS",
+          "path": "x264/x264-e067ab0b530395f90b578f6d05ab0a225e2efdf9/AUTHORS",
+          "bytes": 2098,
+          "sha256": "1ba5ec9985331fd868beef6a304f54d1c18b0f1f2956812039393be2a1ae29e8"
+        },
+        {
+          "sourceMember": "x264-e067ab0b530395f90b578f6d05ab0a225e2efdf9/COPYING",
+          "path": "x264/x264-e067ab0b530395f90b578f6d05ab0a225e2efdf9/COPYING",
+          "bytes": 18332,
+          "sha256": "da0eca0fb517ac939d167924c9d4b3f8750a6b7191932ef2cb145acfa624ac7e"
+        }
+      ]
+    },
+    {
+      "package": "x265",
+      "sourceArchive": "x265_4.1.tar.gz",
+      "sourceSha256": "a31699c6a89806b74b0151e5e6a7df65de4b49050482fe5ebf8a4379d7af8f29",
+      "notices": [
+        {
+          "sourceMember": "x265_4.1/COPYING",
+          "path": "x265/x265_4.1/COPYING",
+          "bytes": 18120,
+          "sha256": "d8afb1bcc7a2cfc603683b168d6987ef0a48e59e0da3693bf55c5d33b67e2b49"
+        },
+        {
+          "sourceMember": "x265_4.1/source/compat/getopt/LGPL.txt",
+          "path": "x265/x265_4.1/source/compat/getopt/LGPL.txt",
+          "bytes": 26434,
+          "sha256": "36b6d3fa47916943fd5fec313c584784946047ec1337a78b440e5992cb595f89"
+        },
+        {
+          "sourceMember": "x265_4.1/source/dynamicHDR10/LICENSE.txt",
+          "path": "x265/x265_4.1/source/dynamicHDR10/LICENSE.txt",
+          "bytes": 849,
+          "sha256": "47f15d63e82eb8a4de6e46471d5f96cf6d052fd5355944a002c3157880248b69"
+        },
+        {
+          "sourceMember": "x265_4.1/source/dynamicHDR10/json11/LICENSE.txt",
+          "path": "x265/x265_4.1/source/dynamicHDR10/json11/LICENSE.txt",
+          "bytes": 1057,
+          "sha256": "950e288a2548cb33f6a90d23958806b0803f510ab17c600d661619a73ae3a6c8"
+        }
+      ]
+    },
+    {
+      "package": "zlib",
+      "sourceArchive": "zlib-1.3.2.tar.xz",
+      "sourceSha256": "d7a0654783a4da529d1bb793b7ad9c3318020af77667bcae35f95d0e42a792f3",
+      "notices": [
+        {
+          "sourceMember": "zlib-1.3.2/LICENSE",
+          "path": "zlib/zlib-1.3.2/LICENSE",
+          "bytes": 1002,
+          "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+        },
+        {
+          "sourceMember": "zlib-1.3.2/contrib/dotzlib/LICENSE_1_0.txt",
+          "path": "zlib/zlib-1.3.2/contrib/dotzlib/LICENSE_1_0.txt",
+          "bytes": 1359,
+          "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+        },
+        {
+          "sourceMember": "zlib-1.3.2/contrib/minizip/LICENSE.Info-Zip",
+          "path": "zlib/zlib-1.3.2/contrib/minizip/LICENSE.Info-Zip",
+          "bytes": 3509,
+          "sha256": "fc686023047ce5ce3a18a9b8a777156f0e475929d3de06bac279f3c025d2b2ca"
+        }
+      ]
+    },
+    {
+      "package": "zvbi",
+      "sourceArchive": "zvbi-0.2.45.tar.gz",
+      "sourceSha256": "e6c954fde2a5a635187f19e1ab870a88c1a982012c5f1b33b8f2513e0ab7a50e",
+      "notices": [
+        {
+          "sourceMember": "zvbi-0.2.45/AUTHORS",
+          "path": "zvbi/zvbi-0.2.45/AUTHORS",
+          "bytes": 7027,
+          "sha256": "349107750f8e6a3555e9ad47f625806e70ce6dd108926eb158528b27c2c03586"
+        },
+        {
+          "sourceMember": "zvbi-0.2.45/COPYING.md",
+          "path": "zvbi/zvbi-0.2.45/COPYING.md",
+          "bytes": 78695,
+          "sha256": "6d679539253897582d38fcd1eabfa670c01c0ece73d8cd3dc97869fcf723f106"
+        }
+      ]
+    }
+  ]
+}

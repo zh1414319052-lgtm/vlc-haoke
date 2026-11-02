@@ -1,0 +1,461 @@
+{
+  "testNow": 1791158400000,
+  "keyId": "haoke-v2-isolated-test",
+  "publicKeyBase64": "8K/areUIrRnmHuxk/2IV6E2F714KSsrFl5r71luewbc=",
+  "softwareId": "v2-muuqbrwg-product",
+  "applicationId": "org.haoke.v2muuqbrwg",
+  "identities": {
+    "Android": {
+      "kind": "android",
+      "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "Windows": {
+      "kind": "authenticode",
+      "publisher": "CN=Haoke Test",
+      "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "macOS": {
+      "kind": "apple-developer-id",
+      "teamId": "ABCDE12345",
+      "bundleId": "org.haoke.v2muuqbrwg",
+      "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "iOS": {
+      "kind": "app-store",
+      "teamId": "ABCDE12345",
+      "bundleId": "org.haoke.v2muuqbrwg",
+      "storeId": "123456789"
+    }
+  },
+  "devices": {
+    "Android": {
+      "minOS": "35",
+      "architecture": "arm64-v8a"
+    },
+    "Windows": {
+      "minOS": "10.0.22631",
+      "architecture": "x64"
+    },
+    "macOS": {
+      "minOS": "14.0",
+      "architecture": "arm64"
+    },
+    "iOS": {
+      "minOS": "17.0",
+      "architecture": "arm64"
+    }
+  },
+  "fixtures": [
+    {
+      "platform": "Android",
+      "phase": "none",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IkFuZHJvaWQiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYW5kcm9pZCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MCwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJub25lIiwicmVsZWFzZSI6bnVsbH0=",
+        "signature": "xpwkdRUWpwBWHHIij1SeX0RcQruAEQOw/tB9z4b9AnhG8Bj2hD4O86J2fMV3I3L/mVZ/CNZzeTs5vAm+xF52AA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Android",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "android",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 0,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "none",
+        "release": null
+      }
+    },
+    {
+      "platform": "Windows",
+      "phase": "none",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IldpbmRvd3MiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYXV0aGVudGljb2RlIiwicHVibGlzaGVyIjoiQ049SGFva2UgVGVzdCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MCwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJub25lIiwicmVsZWFzZSI6bnVsbH0=",
+        "signature": "EcwP5CsLV3AZcOMrxY0aj0pogslnReTqFDEgwa+yhgqFOat6Hbz19bTsrvtQrX8ZAABur7z608gObwD2qtiKCA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Windows",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "authenticode",
+          "publisher": "CN=Haoke Test",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 0,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "none",
+        "release": null
+      }
+    },
+    {
+      "platform": "macOS",
+      "phase": "none",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6Im1hY09TIiwic29mdHdhcmVJZCI6InYyLW11dXFicndnLXByb2R1Y3QiLCJhcHBsaWNhdGlvbklkIjoib3JnLmhhb2tlLnYybXV1cWJyd2ciLCJjaGFubmVsIjoic3RhYmxlIiwiaWRlbnRpdHkiOnsia2luZCI6ImFwcGxlLWRldmVsb3Blci1pZCIsInRlYW1JZCI6IkFCQ0RFMTIzNDUiLCJidW5kbGVJZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2VydGlmaWNhdGVTaGEyNTYiOiJhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhIn0sInJldmlzaW9uIjowLCJpc3N1ZWRBdCI6IjIwMjYtMTAtMDVUMDA6MDA6MDAuMDAwWiIsImV4cGlyZXNBdCI6IjIwMjYtMTAtMDZUMDA6MDA6MDAuMDAwWiIsInN0YXR1cyI6Im5vbmUiLCJyZWxlYXNlIjpudWxsfQ==",
+        "signature": "D/kXx76mDD9Ad2Ms2CyLGxnLbVE/Gq1T+5QpsmKGcF6uYUYVrJ3NJXKCL6VOkBWrfC/pj2byrIFk4MEvnawfAg=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "macOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "apple-developer-id",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 0,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "none",
+        "release": null
+      }
+    },
+    {
+      "platform": "iOS",
+      "phase": "none",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6ImlPUyIsInNvZnR3YXJlSWQiOiJ2Mi1tdXVxYnJ3Zy1wcm9kdWN0IiwiYXBwbGljYXRpb25JZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2hhbm5lbCI6InN0YWJsZSIsImlkZW50aXR5Ijp7ImtpbmQiOiJhcHAtc3RvcmUiLCJ0ZWFtSWQiOiJBQkNERTEyMzQ1IiwiYnVuZGxlSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsInN0b3JlSWQiOiIxMjM0NTY3ODkifSwicmV2aXNpb24iOjAsImlzc3VlZEF0IjoiMjAyNi0xMC0wNVQwMDowMDowMC4wMDBaIiwiZXhwaXJlc0F0IjoiMjAyNi0xMC0wNlQwMDowMDowMC4wMDBaIiwic3RhdHVzIjoibm9uZSIsInJlbGVhc2UiOm51bGx9",
+        "signature": "mD83N3SVwkkue1f+8OSphTswH9oJSCG8D21t4yFFlIi7QQILNsJN2reavnCzUXch68e5G1+D4jYnfyjdbRjbAA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "iOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "app-store",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "storeId": "123456789"
+        },
+        "revision": 0,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "none",
+        "release": null
+      }
+    },
+    {
+      "platform": "Android",
+      "phase": "published",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IkFuZHJvaWQiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYW5kcm9pZCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MSwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJwdWJsaXNoZWQiLCJyZWxlYXNlIjp7InJlbGVhc2VJZCI6InJlbGVhc2UtMSIsInNvZnR3YXJlSWQiOiJ2Mi1tdXVxYnJ3Zy1wcm9kdWN0IiwidmVyc2lvbkNvZGUiOjEwLCJ2ZXJzaW9uTmFtZSI6IjEuMCIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMC0wNVQwMDowMDowMC4wMDBaIiwibm90ZXMiOnsiemgiOiLpmpTnprvmtYvor5XniYjmnKwiLCJlbiI6Iklzb2xhdGVkIHRlc3QgcmVsZWFzZSJ9LCJwYWdlVXJsIjoiaHR0cHM6Ly9oYW9rZS5vcmcvc29mdHdhcmUvdjItbXV1cWJyd2ctcHJvZHVjdC9yZWxlYXNlcy92Mi9BbmRyb2lkL3N0YWJsZS9yZWxlYXNlLTEiLCJhcnRpZmFjdCI6eyJkaXN0cmlidXRpb24iOiJkaXJlY3QiLCJzaGEyNTYiOiJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiIiwic2l6ZUJ5dGVzIjoxMjM0NTYsIm1pbk9TIjoiMjMiLCJhcmNoaXRlY3R1cmVzIjpbImFybTY0LXY4YSJdLCJhY3Rpb25VcmwiOiJodHRwczovL2hhb2tlLm9yZy9hcGkvY2xpZW50LXVwZGF0ZXMvdjIvcmVsZWFzZXMvdjItbXV1cWJyd2ctcHJvZHVjdC9BbmRyb2lkL3N0YWJsZS9yZWxlYXNlLTEvZG93bmxvYWQifX19",
+        "signature": "vVmJDWXjbDwGW5hbh1F9/B8NHnDnp3b+V4KvahONou0ulCb5E+jPiXbzAj8+yqsKkNiAMdRD+wBq/OeYuC8HAQ=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Android",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "android",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 1,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "published",
+        "release": {
+          "releaseId": "release-1",
+          "softwareId": "v2-muuqbrwg-product",
+          "versionCode": 10,
+          "versionName": "1.0",
+          "publishedAt": "2026-10-05T00:00:00.000Z",
+          "notes": {
+            "zh": "隔离测试版本",
+            "en": "Isolated test release"
+          },
+          "pageUrl": "https://haoke.org/software/v2-muuqbrwg-product/releases/v2/Android/stable/release-1",
+          "artifact": {
+            "distribution": "direct",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "sizeBytes": 123456,
+            "minOS": "23",
+            "architectures": [
+              "arm64-v8a"
+            ],
+            "actionUrl": "https://haoke.org/api/client-updates/v2/releases/v2-muuqbrwg-product/Android/stable/release-1/download"
+          }
+        }
+      }
+    },
+    {
+      "platform": "Windows",
+      "phase": "published",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IldpbmRvd3MiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYXV0aGVudGljb2RlIiwicHVibGlzaGVyIjoiQ049SGFva2UgVGVzdCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MSwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJwdWJsaXNoZWQiLCJyZWxlYXNlIjp7InJlbGVhc2VJZCI6InJlbGVhc2UtMSIsInNvZnR3YXJlSWQiOiJ2Mi1tdXVxYnJ3Zy1wcm9kdWN0IiwidmVyc2lvbkNvZGUiOjEwLCJ2ZXJzaW9uTmFtZSI6IjEuMCIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMC0wNVQwMDowMDowMC4wMDBaIiwibm90ZXMiOnsiemgiOiLpmpTnprvmtYvor5XniYjmnKwiLCJlbiI6Iklzb2xhdGVkIHRlc3QgcmVsZWFzZSJ9LCJwYWdlVXJsIjoiaHR0cHM6Ly9oYW9rZS5vcmcvc29mdHdhcmUvdjItbXV1cWJyd2ctcHJvZHVjdC9yZWxlYXNlcy92Mi9XaW5kb3dzL3N0YWJsZS9yZWxlYXNlLTEiLCJhcnRpZmFjdCI6eyJkaXN0cmlidXRpb24iOiJkaXJlY3QiLCJzaGEyNTYiOiJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiIiwic2l6ZUJ5dGVzIjoxMjM0NTYsIm1pbk9TIjoiMTAuMC4xOTA0MSIsImFyY2hpdGVjdHVyZXMiOlsieDY0Il0sImFjdGlvblVybCI6Imh0dHBzOi8vaGFva2Uub3JnL2FwaS9jbGllbnQtdXBkYXRlcy92Mi9yZWxlYXNlcy92Mi1tdXVxYnJ3Zy1wcm9kdWN0L1dpbmRvd3Mvc3RhYmxlL3JlbGVhc2UtMS9kb3dubG9hZCJ9fX0=",
+        "signature": "aGAtTFC/EF7T34XfbCcEOLv/t5I9UfJnyBMf7yJq6eOh8BayVY4RS588r3MWEdNectJxYWlXXWQCQ+DQsJcXDQ=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Windows",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "authenticode",
+          "publisher": "CN=Haoke Test",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 1,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "published",
+        "release": {
+          "releaseId": "release-1",
+          "softwareId": "v2-muuqbrwg-product",
+          "versionCode": 10,
+          "versionName": "1.0",
+          "publishedAt": "2026-10-05T00:00:00.000Z",
+          "notes": {
+            "zh": "隔离测试版本",
+            "en": "Isolated test release"
+          },
+          "pageUrl": "https://haoke.org/software/v2-muuqbrwg-product/releases/v2/Windows/stable/release-1",
+          "artifact": {
+            "distribution": "direct",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "sizeBytes": 123456,
+            "minOS": "10.0.19041",
+            "architectures": [
+              "x64"
+            ],
+            "actionUrl": "https://haoke.org/api/client-updates/v2/releases/v2-muuqbrwg-product/Windows/stable/release-1/download"
+          }
+        }
+      }
+    },
+    {
+      "platform": "macOS",
+      "phase": "published",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6Im1hY09TIiwic29mdHdhcmVJZCI6InYyLW11dXFicndnLXByb2R1Y3QiLCJhcHBsaWNhdGlvbklkIjoib3JnLmhhb2tlLnYybXV1cWJyd2ciLCJjaGFubmVsIjoic3RhYmxlIiwiaWRlbnRpdHkiOnsia2luZCI6ImFwcGxlLWRldmVsb3Blci1pZCIsInRlYW1JZCI6IkFCQ0RFMTIzNDUiLCJidW5kbGVJZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2VydGlmaWNhdGVTaGEyNTYiOiJhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhIn0sInJldmlzaW9uIjoxLCJpc3N1ZWRBdCI6IjIwMjYtMTAtMDVUMDA6MDA6MDAuMDAwWiIsImV4cGlyZXNBdCI6IjIwMjYtMTAtMDZUMDA6MDA6MDAuMDAwWiIsInN0YXR1cyI6InB1Ymxpc2hlZCIsInJlbGVhc2UiOnsicmVsZWFzZUlkIjoicmVsZWFzZS0xIiwic29mdHdhcmVJZCI6InYyLW11dXFicndnLXByb2R1Y3QiLCJ2ZXJzaW9uQ29kZSI6MTAsInZlcnNpb25OYW1lIjoiMS4wIiwicHVibGlzaGVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJub3RlcyI6eyJ6aCI6IumalOemu+a1i+ivleeJiOacrCIsImVuIjoiSXNvbGF0ZWQgdGVzdCByZWxlYXNlIn0sInBhZ2VVcmwiOiJodHRwczovL2hhb2tlLm9yZy9zb2Z0d2FyZS92Mi1tdXVxYnJ3Zy1wcm9kdWN0L3JlbGVhc2VzL3YyL21hY09TL3N0YWJsZS9yZWxlYXNlLTEiLCJhcnRpZmFjdCI6eyJkaXN0cmlidXRpb24iOiJkaXJlY3QiLCJzaGEyNTYiOiJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiIiwic2l6ZUJ5dGVzIjoxMjM0NTYsIm1pbk9TIjoiMTIuMCIsImFyY2hpdGVjdHVyZXMiOlsiYXJtNjQiXSwiYWN0aW9uVXJsIjoiaHR0cHM6Ly9oYW9rZS5vcmcvYXBpL2NsaWVudC11cGRhdGVzL3YyL3JlbGVhc2VzL3YyLW11dXFicndnLXByb2R1Y3QvbWFjT1Mvc3RhYmxlL3JlbGVhc2UtMS9kb3dubG9hZCJ9fX0=",
+        "signature": "e+MsJ1wL91HHQEgmT5wZaVjjz60vvRAqQJ7KXWTUbR9AytUxlkT/PrJrDMCsreuYb38yWsp8D0wJflkO76LdCQ=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "macOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "apple-developer-id",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 1,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "published",
+        "release": {
+          "releaseId": "release-1",
+          "softwareId": "v2-muuqbrwg-product",
+          "versionCode": 10,
+          "versionName": "1.0",
+          "publishedAt": "2026-10-05T00:00:00.000Z",
+          "notes": {
+            "zh": "隔离测试版本",
+            "en": "Isolated test release"
+          },
+          "pageUrl": "https://haoke.org/software/v2-muuqbrwg-product/releases/v2/macOS/stable/release-1",
+          "artifact": {
+            "distribution": "direct",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "sizeBytes": 123456,
+            "minOS": "12.0",
+            "architectures": [
+              "arm64"
+            ],
+            "actionUrl": "https://haoke.org/api/client-updates/v2/releases/v2-muuqbrwg-product/macOS/stable/release-1/download"
+          }
+        }
+      }
+    },
+    {
+      "platform": "iOS",
+      "phase": "published",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6ImlPUyIsInNvZnR3YXJlSWQiOiJ2Mi1tdXVxYnJ3Zy1wcm9kdWN0IiwiYXBwbGljYXRpb25JZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2hhbm5lbCI6InN0YWJsZSIsImlkZW50aXR5Ijp7ImtpbmQiOiJhcHAtc3RvcmUiLCJ0ZWFtSWQiOiJBQkNERTEyMzQ1IiwiYnVuZGxlSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsInN0b3JlSWQiOiIxMjM0NTY3ODkifSwicmV2aXNpb24iOjEsImlzc3VlZEF0IjoiMjAyNi0xMC0wNVQwMDowMDowMC4wMDBaIiwiZXhwaXJlc0F0IjoiMjAyNi0xMC0wNlQwMDowMDowMC4wMDBaIiwic3RhdHVzIjoicHVibGlzaGVkIiwicmVsZWFzZSI6eyJyZWxlYXNlSWQiOiJyZWxlYXNlLTEiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsInZlcnNpb25Db2RlIjoxMCwidmVyc2lvbk5hbWUiOiIxLjAiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTAtMDVUMDA6MDA6MDAuMDAwWiIsIm5vdGVzIjp7InpoIjoi6ZqU56a75rWL6K+V54mI5pysIiwiZW4iOiJJc29sYXRlZCB0ZXN0IHJlbGVhc2UifSwicGFnZVVybCI6Imh0dHBzOi8vaGFva2Uub3JnL3NvZnR3YXJlL3YyLW11dXFicndnLXByb2R1Y3QvcmVsZWFzZXMvdjIvaU9TL3N0YWJsZS9yZWxlYXNlLTEiLCJhcnRpZmFjdCI6eyJkaXN0cmlidXRpb24iOiJhcHAtc3RvcmUiLCJzaGEyNTYiOm51bGwsInNpemVCeXRlcyI6bnVsbCwibWluT1MiOiIxNS4wIiwiYXJjaGl0ZWN0dXJlcyI6WyJhcm02NCJdLCJhY3Rpb25VcmwiOiJodHRwczovL2hhb2tlLm9yZy9hcGkvY2xpZW50LXVwZGF0ZXMvdjIvcmVsZWFzZXMvdjItbXV1cWJyd2ctcHJvZHVjdC9pT1Mvc3RhYmxlL3JlbGVhc2UtMS9kb3dubG9hZCJ9fX0=",
+        "signature": "jrGoczkntmFHmCzrgqslb0ZDl+wfidZSJs6mTlXq2uB25dEoJCpVbWVjPYbl3F8fh4d9Ji6N9WbDBtRXPzCMAA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "iOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "app-store",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "storeId": "123456789"
+        },
+        "revision": 1,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "published",
+        "release": {
+          "releaseId": "release-1",
+          "softwareId": "v2-muuqbrwg-product",
+          "versionCode": 10,
+          "versionName": "1.0",
+          "publishedAt": "2026-10-05T00:00:00.000Z",
+          "notes": {
+            "zh": "隔离测试版本",
+            "en": "Isolated test release"
+          },
+          "pageUrl": "https://haoke.org/software/v2-muuqbrwg-product/releases/v2/iOS/stable/release-1",
+          "artifact": {
+            "distribution": "app-store",
+            "sha256": null,
+            "sizeBytes": null,
+            "minOS": "15.0",
+            "architectures": [
+              "arm64"
+            ],
+            "actionUrl": "https://haoke.org/api/client-updates/v2/releases/v2-muuqbrwg-product/iOS/stable/release-1/download"
+          }
+        }
+      }
+    },
+    {
+      "platform": "Android",
+      "phase": "withdrawn",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IkFuZHJvaWQiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYW5kcm9pZCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MiwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJ3aXRoZHJhd24iLCJyZWxlYXNlIjpudWxsfQ==",
+        "signature": "G6oI3UXXdFllIK+Q2OiaAM/BJjsnvIm7MR48cxzEl+K6LYmIgXXv201+Mxh6wEsB779WrXrf/iJQI+SJ24msAA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Android",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "android",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 2,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "withdrawn",
+        "release": null
+      }
+    },
+    {
+      "platform": "Windows",
+      "phase": "withdrawn",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6IldpbmRvd3MiLCJzb2Z0d2FyZUlkIjoidjItbXV1cWJyd2ctcHJvZHVjdCIsImFwcGxpY2F0aW9uSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsImNoYW5uZWwiOiJzdGFibGUiLCJpZGVudGl0eSI6eyJraW5kIjoiYXV0aGVudGljb2RlIiwicHVibGlzaGVyIjoiQ049SGFva2UgVGVzdCIsImNlcnRpZmljYXRlU2hhMjU2IjoiYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYSJ9LCJyZXZpc2lvbiI6MiwiaXNzdWVkQXQiOiIyMDI2LTEwLTA1VDAwOjAwOjAwLjAwMFoiLCJleHBpcmVzQXQiOiIyMDI2LTEwLTA2VDAwOjAwOjAwLjAwMFoiLCJzdGF0dXMiOiJ3aXRoZHJhd24iLCJyZWxlYXNlIjpudWxsfQ==",
+        "signature": "fBdXb5KKuz1sYv4Eo3wXrSyz0nYhQ1btIT78wWEV1uK/Wv7NMrkdxvRFCxfWUMQTWuJZBq6IYjsm4gwnhCXGCA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "Windows",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "authenticode",
+          "publisher": "CN=Haoke Test",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 2,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "withdrawn",
+        "release": null
+      }
+    },
+    {
+      "platform": "macOS",
+      "phase": "withdrawn",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6Im1hY09TIiwic29mdHdhcmVJZCI6InYyLW11dXFicndnLXByb2R1Y3QiLCJhcHBsaWNhdGlvbklkIjoib3JnLmhhb2tlLnYybXV1cWJyd2ciLCJjaGFubmVsIjoic3RhYmxlIiwiaWRlbnRpdHkiOnsia2luZCI6ImFwcGxlLWRldmVsb3Blci1pZCIsInRlYW1JZCI6IkFCQ0RFMTIzNDUiLCJidW5kbGVJZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2VydGlmaWNhdGVTaGEyNTYiOiJhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhIn0sInJldmlzaW9uIjoyLCJpc3N1ZWRBdCI6IjIwMjYtMTAtMDVUMDA6MDA6MDAuMDAwWiIsImV4cGlyZXNBdCI6IjIwMjYtMTAtMDZUMDA6MDA6MDAuMDAwWiIsInN0YXR1cyI6IndpdGhkcmF3biIsInJlbGVhc2UiOm51bGx9",
+        "signature": "vFxRP5js6Mt2RFceJHDm0IGBfepmpps1CIjpsQL8ygK9E/0oKJEHy7OxCAf9uRIy02IxtuNUus/FggfyqO5eDw=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "macOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "apple-developer-id",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "certificateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "revision": 2,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "withdrawn",
+        "release": null
+      }
+    },
+    {
+      "platform": "iOS",
+      "phase": "withdrawn",
+      "envelope": {
+        "algorithm": "Ed25519",
+        "keyId": "haoke-v2-isolated-test",
+        "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJwbGF0Zm9ybSI6ImlPUyIsInNvZnR3YXJlSWQiOiJ2Mi1tdXVxYnJ3Zy1wcm9kdWN0IiwiYXBwbGljYXRpb25JZCI6Im9yZy5oYW9rZS52Mm11dXFicndnIiwiY2hhbm5lbCI6InN0YWJsZSIsImlkZW50aXR5Ijp7ImtpbmQiOiJhcHAtc3RvcmUiLCJ0ZWFtSWQiOiJBQkNERTEyMzQ1IiwiYnVuZGxlSWQiOiJvcmcuaGFva2UudjJtdXVxYnJ3ZyIsInN0b3JlSWQiOiIxMjM0NTY3ODkifSwicmV2aXNpb24iOjIsImlzc3VlZEF0IjoiMjAyNi0xMC0wNVQwMDowMDowMC4wMDBaIiwiZXhwaXJlc0F0IjoiMjAyNi0xMC0wNlQwMDowMDowMC4wMDBaIiwic3RhdHVzIjoid2l0aGRyYXduIiwicmVsZWFzZSI6bnVsbH0=",
+        "signature": "eIbwK1iC7Vb8ZxEolY0m8XocbYmIglARDtYrS81dmB0cEj/DOw7PZ5GE+RN5NKPSLkutoNAIuc/2T+HeDZ2NAA=="
+      },
+      "payload": {
+        "schemaVersion": 2,
+        "platform": "iOS",
+        "softwareId": "v2-muuqbrwg-product",
+        "applicationId": "org.haoke.v2muuqbrwg",
+        "channel": "stable",
+        "identity": {
+          "kind": "app-store",
+          "teamId": "ABCDE12345",
+          "bundleId": "org.haoke.v2muuqbrwg",
+          "storeId": "123456789"
+        },
+        "revision": 2,
+        "issuedAt": "2026-10-05T00:00:00.000Z",
+        "expiresAt": "2026-10-06T00:00:00.000Z",
+        "status": "withdrawn",
+        "release": null
+      }
+    }
+  ]
+}

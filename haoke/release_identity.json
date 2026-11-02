@@ -1,0 +1,16 @@
+{
+  "softwareId": "b92689d5ae8d3982",
+  "applicationId": "org.VideoLAN.VLC",
+  "platform": "Windows",
+  "channel": "stable",
+  "identity": {
+    "kind": "authenticode",
+    "publisher": "CN=Haoke Tools (VLC Optimized Edition)",
+    "certificateSha256": "2bec4ca521ed1d13d8411672cf6505ea8d331042639cf2ba851c56b174f95581"
+  },
+  "versionName": "3.0.24-Haoke.5",
+  "versionCode": 3000024005,
+  "publicKeys": {
+    "haoke-updates-000ef7a45a5a58d5": "+8cSV1C+t+6GipgPi3a2zjZ4T3W/Z+tZDKzzO4tQXOY="
+  }
+}

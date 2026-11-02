@@ -1,0 +1,64 @@
+/* Haoke edition modifications, 2026-11-02. SPDX-License-Identifier: GPL-2.0-or-later */
+/* Source tokens: design/ui-20261102/vlc.haoke-ui.json. GPL-2.0-or-later. */
+QWidget { color: #edf0f4; font-family: "Noto Sans CJK SC"; }
+QMainWindow, QDialog { background: #191f27; }
+QMenuBar { background: #191f27; border-bottom: 1px solid #2b333d; padding: @3@; }
+QMenuBar::item { padding: @7@ @10@; background: transparent; }
+QMenuBar::item:selected, QMenu::item:selected { background: #28313c; color: #ffb16f; }
+QMenu { background: #191f27; border: 1px solid #3c4857; padding: @5@; }
+QMenu::item { padding: @7@ @28@ @7@ @22@; }
+QMenu::separator { height: 1px; background: #2b333d; margin: @5@ @10@; }
+QMenu::item:disabled { color: #626d7b; }
+QToolTip { background: #28313c; color: #edf0f4; border: 1px solid #536173; padding: @6@; }
+QPushButton { background: #212a35; border: 1px solid #3c4857; border-radius: @6@; padding: @7@ @16@; min-height: @19@; }
+QPushButton:hover { background: #2b3745; border-color: #65768a; }
+QPushButton:pressed { background: #384558; }
+QPushButton:default, QPushButton#haokeOpenFile { background: #ff963b; color: #101419; border-color: #ff963b; }
+QPushButton:default:hover, QPushButton#haokeOpenFile:hover { background: #ffb16f; }
+QPushButton:disabled { color: #626d7b; background: #191f27; border-color: #2b333d; }
+QPushButton:focus, QToolButton:focus { border: 2px solid #ffb16f; }
+QToolButton { background: transparent; border: 1px solid transparent; border-radius: @5@; padding: @3@; }
+QToolButton:hover, QToolButton:checked { background: #303b49; border-color: #536173; }
+QToolButton:pressed { background: #3c4857; }
+QDialog QToolButton { background: #212a35; border: 1px solid #3c4857; padding: @7@ @12@; min-height: @19@; }
+QDialog QToolButton:disabled { color: #626d7b; border-color: #2b333d; }
+QToolButton#haokePlay { background: #ff963b; border-color: #ff963b; border-radius: @8@; }
+QToolButton#haokePlay:hover { background: #ffb16f; }
+QLineEdit, QTextEdit, QPlainTextEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+  background: #101419; selection-background-color: #ff963b; selection-color: #101419;
+  border: 1px solid #3c4857; border-radius: @5@; padding: @5@; min-height: @18@;
+}
+QLineEdit:focus, QTextEdit:focus, QSpinBox:focus, QComboBox:focus { border-color: #ff963b; }
+QComboBox::drop-down { border: none; width: @22@; }
+QComboBox QAbstractItemView { background: #191f27; color: #edf0f4; selection-background-color: #ff963b; selection-color: #101419; }
+QGroupBox { border: 1px solid #2b333d; border-radius: @6@; margin-top: @16@; padding: @12@ @8@ @8@ @8@; }
+QGroupBox::title { subcontrol-origin: margin; left: @10@; padding: 0 @5@; color: #c3ccd7; }
+QTabWidget::pane { border: 1px solid #2b333d; background: #191f27; }
+QTabBar::tab { background: #191f27; border-bottom: 2px solid transparent; padding: @10@ @14@; }
+QTabBar::tab:selected { border-bottom-color: #ff963b; color: #ffb16f; }
+QTabBar::tab:hover { background: #28313c; }
+QAbstractItemView { background: #101419; alternate-background-color: #151b22; border: 1px solid #2b333d; selection-background-color: #ff963b; selection-color: #101419; }
+QTreeView::item, QListView::item { min-height: @30@; }
+QTreeView::item:hover, QListView::item:hover { background: #28313c; }
+QTreeView::item:selected, QListView::item:selected { background: #ff963b; color: #101419; }
+QHeaderView::section { background: #191f27; color: #97a3b3; border: none; border-bottom: 1px solid #2b333d; padding: @8@; }
+QCheckBox, QRadioButton { spacing: @7@; }
+QCheckBox::indicator, QGroupBox::indicator { width: @14@; height: @14@; background: #101419; border: 1px solid #65768a; border-radius: @3@; }
+QCheckBox::indicator:checked, QGroupBox::indicator:checked { background: #ff963b; border-color: #ff963b; image: url(:/haoke/check.svg); }
+QCheckBox::indicator:indeterminate { background: #ff963b; image: url(:/haoke/mixed.svg); }
+QCheckBox::indicator:disabled, QGroupBox::indicator:disabled { border-color: #3c4857; background: #28313c; }
+QRadioButton::indicator { width: @14@; height: @14@; background: transparent; border: none; image: url(:/haoke/radio-off.svg); }
+QRadioButton::indicator:checked { image: url(:/haoke/radio.svg); }
+QRadioButton::indicator:checked:disabled { image: url(:/haoke/radio-disabled.svg); }
+QScrollArea { border: none; }
+QScrollBar:vertical { background: #101419; width: @10@; margin: 0; }
+QScrollBar:horizontal { background: #101419; height: @10@; margin: 0; }
+QScrollBar::handle { background: #485668; border-radius: @4@; min-height: @24@; min-width: @24@; }
+QScrollBar::handle:hover { background: #65768a; }
+QScrollBar::add-line, QScrollBar::sub-line { width: 0; height: 0; }
+QScrollBar::add-page, QScrollBar::sub-page { background: transparent; }
+QStatusBar { background: #191f27; color: #97a3b3; border-top: 1px solid #2b333d; }
+QStatusBar::item { border: none; }
+QSplitter::handle { background: #2b333d; }
+QProgressBar { background: #101419; border: 1px solid #2b333d; border-radius: @3@; text-align: center; }
+QProgressBar::chunk { background: #ff963b; }
